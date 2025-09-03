@@ -76,29 +76,38 @@ def run_quick_test():
     model, problem_generator, trainer = initialize_components()
     
     try:
-        # Test de génération de problèmes
+         # Test des générateurs disponibles
         logger.info("Test de génération de problèmes...")
-        problems = problem_generator.generate_batch("math", complexity=1, batch_size=5)
-        logger.info(f"✅ {len(problems)} problèmes générés")
+        available_generators = list(problem_generator.generators.keys())
+        logger.info(f"Générateurs disponibles: {available_generators}")
         
-        # Test du modèle
-        logger.info("Test du modèle de raisonnement...")
-        with torch.no_grad():
-            # Transférer les données sur le bon device
-            input_data = problems[0].input_data.unsqueeze(0).to(model.device)
-            result = model(input_data)
-        
-        logger.info(f"✅ Test du modèle réussi:")
-        logger.info(f"   - Profondeur de raisonnement: {result['reasoning_depth']}")
-        logger.info(f"   - Confiance finale: {result['final_confidence'].item():.3f}")
-        logger.info(f"   - Score de consistance: {result['consistency_score'].item():.3f}")
-        
-        # Test d'entraînement
-        logger.info("Test d'une étape d'entraînement...")
-        training_results = trainer.self_supervised_training_step(problems[:3])
-        logger.info(f"✅ Entraînement testé - Récompense: {training_results['average_reward']:.4f}")
-        
-        logger.info("🎉 Test rapide terminé avec succès!")
+        for gen_type in available_generators:
+            problems = problem_generator.generate_batch(gen_type, complexity=1, batch_size=3)
+            logger.info(f"✅ {gen_type}: {len(problems)} problèmes générés")
+            
+            # # Test de génération de problèmes
+            # problems = problem_generator.generate_batch("math", complexity=1, batch_size=5)
+            # logger.info(f"✅ {len(problems)} problèmes générés")
+            
+            # Test du modèle
+            logger.info("Test du modèle de raisonnement...")
+            with torch.no_grad():
+                # Transférer les données sur le bon device
+                input_data = problems[0].input_data.unsqueeze(0).to(model.device)
+                result = model(input_data)
+            
+            logger.info(f"✅ Test du modèle réussi:")
+            logger.info(f"   - Profondeur de raisonnement: {result['reasoning_depth']}")
+            logger.info(f"   - Confiance finale: {result['final_confidence'].item():.3f}")
+            logger.info(f"   - Score de consistance: {result['consistency_score'].item():.3f}")
+            
+            # Test d'entraînement
+            logger.info("Test d'une étape d'entraînement...")
+            training_results = trainer.self_supervised_training_step(problems[:3])
+            logger.info(f"✅ Entraînement testé - Récompense: {training_results['average_reward']:.4f}")
+            
+            logger.info("🎉 Test rapide terminé avec succès!")
+            
         return True
         
     except Exception as e:
@@ -137,12 +146,22 @@ def main():
     
     # Choix du mode d'exécution
     import sys
+    # Arguments acceptés
+    valid_modes = ["test", "train"]
     
     if len(sys.argv) > 1:
-        mode = sys.argv[1].lower()
+     mode = sys.argv[1].lower()
+     if mode not in valid_modes:
+            logger.error(f"Mode '{mode}' non reconnu. Utilisez: {', '.join(valid_modes)}")
+            sys.exit(1)
     else:
-        mode = input("Mode d'exécution (test/train): ").strip().lower()
-    
+        print("Modes disponibles: test, train")
+        mode = input("Mode d'exécution: ").strip().lower()
+        
+    if mode not in valid_modes:
+        logger.error(f"Mode non valide. Utilisez: {', '.join(valid_modes)}")
+        sys.exit(1)
+        
     if mode == "test":
         success = run_quick_test()
         if not success:

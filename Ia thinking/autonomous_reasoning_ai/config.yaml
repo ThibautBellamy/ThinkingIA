@@ -1,0 +1,131 @@
+# config.yaml - Configuration principale pour ThinkingIA
+
+# ===============================================
+# CONFIGURATION GÉNÉRALE
+# ===============================================
+project:
+  name: "ThinkingIA"
+  version: "1.0.0"
+  random_seed: 42
+  compile_model: true
+
+# ===============================================
+# CONFIGURATION DU MODÈLE
+# ===============================================
+model:
+  # Dimensions principales
+  input_dim: 128
+  hidden_dim: 512
+  output_dim: 64
+  num_layers: 6
+  
+  # Architecture du raisonnement
+  max_reasoning_depth: 10
+  attention_heads: 8
+  dropout_rate: 0.1
+  
+  # Device (auto-détection ou manuel)
+  device: "auto"  # "auto", "cpu", "cuda"
+  
+  # Activation et normalisation
+  activation: "gelu"  # "relu", "gelu", "tanh"
+  use_layer_norm: true
+
+# ===============================================
+# CONFIGURATION D'ENTRAÎNEMENT
+# ===============================================
+training:
+  # Paramètres de base
+  learning_rate: 0.0003
+  batch_size: 32
+  max_epochs: 100
+  warmup_steps: 1000
+  
+  # Curriculum learning
+  curriculum:
+    initial_complexity: 1
+    max_complexity: 5
+    complexity_increase_steps: 500
+  
+  # Auto-supervision
+  self_supervision:
+    consistency_weight: 0.5
+    confidence_threshold: 0.8
+    num_reasoning_attempts: 3
+  
+  # Optimisation
+  optimizer:
+    name: "adamw"  # "adam", "adamw", "sgd"
+    weight_decay: 0.01
+    gradient_clip_norm: 1.0
+  
+  # Early stopping
+  early_stopping:
+    patience: 10
+    min_delta: 0.001
+
+# ===============================================
+# CONFIGURATION EXPÉRIMENTATION
+# ===============================================
+experiment:
+  # Répertoires (relatifs au fichier config)
+  paths:
+    checkpoint_dir: "./checkpoints"
+    log_dir: "./logs" 
+    results_dir: "./results"
+  
+  # Fréquence de sauvegarde et logging
+  logging:
+    save_every_n_steps: 500
+    log_every_n_steps: 100
+    eval_every_n_steps: 250
+  
+  # Métriques à suivre
+  metrics:
+    - "accuracy"
+    - "consistency" 
+    - "confidence"
+    - "reasoning_depth"
+    - "convergence_time"
+    - "loss"
+
+# ===============================================
+# CONFIGURATION GÉNÉRATEURS DE PROBLÈMES
+# ===============================================
+problem_generators:
+  # Générateur mathématique
+  math:
+    enabled: true
+    max_complexity: 5
+    problem_types:
+      - "arithmetic"
+      - "equations"
+      - "polynomials"
+  
+  # Générateur logique
+  logic:
+    enabled: false  # Désactivé pour l'instant
+    max_complexity: 3
+    problem_types:
+      - "syllogisms"
+      - "propositional"
+  
+  # Générateur de patterns
+  patterns:
+    enabled: false  # Désactivé pour l'instant
+    max_complexity: 4
+    problem_types:
+      - "sequences"
+      - "matrices"
+
+# ===============================================
+# CONFIGURATION DE DÉVELOPPEMENT
+# ===============================================
+development:
+  debug_mode: false
+  verbose_logging: true
+  profile_performance: false
+  
+  # Tests automatiques
+  run_tests_on_start: true
+  test_batch_size: 8

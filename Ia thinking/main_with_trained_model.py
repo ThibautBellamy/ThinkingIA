@@ -77,6 +77,19 @@ def initialize_components_with_latest_model():
     problem_generator = ProblemGenerator()
     problem_generator.register_generator("math", MathProblemGenerator())
     
+    # Ajouter des vérifications d'existence
+    try:
+        problem_generator.register_generator("logic", LogicProblemGenerator())
+        logger.info("✅ Générateur de logique activé")
+    except Exception as e:
+        logger.warning(f"⚠️  Générateur de logique désactivé: {e}")
+
+    try:
+        problem_generator.register_generator("pattern", PatternProblemGenerator())
+        logger.info("✅ Générateur de patterns activé")
+    except Exception as e:
+        logger.warning(f"⚠️  Générateur de patterns désactivé: {e}")
+    
     # Création du modèle
     model = AutonomousReasoningCore()
     model = model.to(config.model.device)

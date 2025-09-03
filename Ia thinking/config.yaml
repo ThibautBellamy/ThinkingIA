@@ -1,0 +1,13 @@
+model:
+  device: auto
+  hidden_dim: 512
+  input_dim: 128
+  output_dim: 64
+project:
+  name: ThinkingIA
+  random_seed: 42
+  version: 1.0.0
+training:
+  batch_size: 32
+  learning_rate: 0.0003
+  max_epochs: 100
