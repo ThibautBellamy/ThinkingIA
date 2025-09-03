@@ -130,7 +130,7 @@ class ValidationUtils:
         """Génère un rapport de performance par complexité"""
         from ..config import config
         if max_complexity is None:
-            max_complexity = config.training.max_complexity
+            max_complexity = config.get('training.max_complexity', 10)
             
         report = {}
         

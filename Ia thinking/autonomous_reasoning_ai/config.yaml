@@ -46,12 +46,15 @@ training:
     initial_complexity: 1
     max_complexity: 5
     complexity_increase_steps: 500
+    complexity_threshold: 0.75
   
   # Auto-supervision
   self_supervision:
     consistency_weight: 0.5
     confidence_threshold: 0.8
     num_reasoning_attempts: 3
+    confidence_weight: 0.3
+    validation_weight: 0.2
   
   # Optimisation
   optimizer:
@@ -63,6 +66,8 @@ training:
   early_stopping:
     patience: 10
     min_delta: 0.001
+
+use_mixed_precision: false
 
 # ===============================================
 # CONFIGURATION EXPÉRIMENTATION
@@ -129,3 +134,11 @@ development:
   # Tests automatiques
   run_tests_on_start: true
   test_batch_size: 8
+
+# ===============================================
+# VALIDATION
+# ===============================================
+validation:
+  threshold: 0.8
+  min_confidence: 0.5
+  strict_mode: false

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Point d'entrée principal pour l'IA de raisonnement autonome
+Point d'entrée principal pour l'IA de raisonnement autonome - version YAML Config
 """
 
 import torch
@@ -15,8 +15,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Imports des modules du projet
+# Import du système de configuration YAML
 from autonomous_reasoning_ai.config import config
+
+# Imports des modules du projet
 from autonomous_reasoning_ai.models import AutonomousReasoningCore
 from autonomous_reasoning_ai.problem_generators import (
     ProblemGenerator, MathProblemGenerator, 
@@ -28,15 +30,15 @@ from autonomous_reasoning_ai.experiments import ExperimentRunner
 def setup_environment():
     """Configure l'environnement d'exécution"""
     # Seed pour la reproductibilité
-    torch.manual_seed(config.random_seed)
+    torch.manual_seed(config.get('project.random_seed'))
     
     # Création des répertoires nécessaires
-    # Note: checkpoint_dir est maintenant géré par experiment_runner
-    os.makedirs(config.experiment.log_dir, exist_ok=True)
-    os.makedirs(config.experiment.results_dir, exist_ok=True)
+    experiment_paths = config.get('experiment.paths', {})
+    for key, directory in experiment_paths.items():
+        os.makedirs(directory, exist_ok=True)
     
     # Configuration du device
-    device = torch.device(config.model.device)
+    device = config.get('model.device')
     logger.info(f"Utilisation du device: {device}")
     
     return device
@@ -47,16 +49,32 @@ def initialize_components():
     
     # Création du générateur de problèmes
     problem_generator = ProblemGenerator()
-    problem_generator.register_generator("math", MathProblemGenerator())
-    # problem_generator.register_generator("logic", LogicProblemGenerator())
-    # problem_generator.register_generator("pattern", PatternProblemGenerator())
+    
+    # Chargement conditionnel des générateurs suivant config
+    if config.get('problem_generators.math.enabled', True):
+        problem_generator.register_generator("math", MathProblemGenerator())
+        logger.info("✅ Générateur mathématique activé")
+    
+    if config.get('problem_generators.logic.enabled', False):
+        try:
+            problem_generator.register_generator("logic", LogicProblemGenerator())
+            logger.info("✅ Générateur logique activé")
+        except Exception as e:
+            logger.warning(f"⚠️  Générateur logique désactivé: {e}")
+    
+    if config.get('problem_generators.patterns.enabled', False):
+        try:
+            problem_generator.register_generator("pattern", PatternProblemGenerator())
+            logger.info("✅ Générateur patterns activé")
+        except Exception as e:
+            logger.warning(f"⚠️  Générateur patterns désactivé: {e}")
     
     # Création du modèle
-    model = AutonomousReasoningCore()
-    model = model.to(config.model.device)
+    model = AutonomousReasoningCore(config)
+    model = model.to(config.get('model.device'))
     
     # Compilation du modèle si supportée
-    if config.compile_model:
+    if config.get('project.compile_model', False):
         try:
             model = torch.compile(model)
             logger.info("Modèle compilé avec torch.compile")
@@ -64,7 +82,7 @@ def initialize_components():
             logger.warning(f"Impossible de compiler le modèle: {e}")
     
     # Création du trainer
-    trainer = AutonomousLearningTrainer(model, problem_generator)
+    trainer = AutonomousLearningTrainer(model, problem_generator, config)
     
     return model, problem_generator, trainer
 
@@ -76,23 +94,18 @@ def run_quick_test():
     model, problem_generator, trainer = initialize_components()
     
     try:
-         # Test des générateurs disponibles
-        logger.info("Test de génération de problèmes...")
+        # Test de génération de problèmes
         available_generators = list(problem_generator.generators.keys())
         logger.info(f"Générateurs disponibles: {available_generators}")
         
         for gen_type in available_generators:
             problems = problem_generator.generate_batch(gen_type, complexity=1, batch_size=3)
             logger.info(f"✅ {gen_type}: {len(problems)} problèmes générés")
-            
-            # # Test de génération de problèmes
-            # problems = problem_generator.generate_batch("math", complexity=1, batch_size=5)
-            # logger.info(f"✅ {len(problems)} problèmes générés")
-            
-            # Test du modèle
+        
+        # Test du modèle avec le premier générateur disponible
+        if available_generators:
             logger.info("Test du modèle de raisonnement...")
             with torch.no_grad():
-                # Transférer les données sur le bon device
                 input_data = problems[0].input_data.unsqueeze(0).to(model.device)
                 result = model(input_data)
             
@@ -105,9 +118,8 @@ def run_quick_test():
             logger.info("Test d'une étape d'entraînement...")
             training_results = trainer.self_supervised_training_step(problems[:3])
             logger.info(f"✅ Entraînement testé - Récompense: {training_results['average_reward']:.4f}")
-            
-            logger.info("🎉 Test rapide terminé avec succès!")
-            
+        
+        logger.info("🎉 Test rapide terminé avec succès!")
         return True
         
     except Exception as e:
@@ -135,33 +147,24 @@ def run_full_training():
     experiment.run()
 
 def main():
-    """Fonction principale"""
+    """Fonction principale avec intégration config YAML"""
     print("🤖 IA de Raisonnement Autonome")
     print("=" * 50)
     print(f"Configuration:")
-    print(f"  - Device: {config.model.device}")
-    print(f"  - Dimensions: {config.model.input_dim}x{config.model.hidden_dim}")
-    print(f"  - Complexité max: {config.training.max_complexity}")
+    print(f"  - Projet: {config.get('project.name')} v{config.get('project.version')}")
+    print(f"  - Device: {config.get('model.device')}")
+    print(f"  - Dimensions: {config.get('model.input_dim')}x{config.get('model.hidden_dim')}")
+    print(f"  - Learning rate: {config.get('training.learning_rate')}")
+    print(f"  - Batch size: {config.get('training.batch_size')}")
     print("=" * 50)
     
-    # Choix du mode d'exécution
     import sys
-    # Arguments acceptés
-    valid_modes = ["test", "train"]
     
     if len(sys.argv) > 1:
-     mode = sys.argv[1].lower()
-     if mode not in valid_modes:
-            logger.error(f"Mode '{mode}' non reconnu. Utilisez: {', '.join(valid_modes)}")
-            sys.exit(1)
+        mode = sys.argv[1].lower()
     else:
-        print("Modes disponibles: test, train")
-        mode = input("Mode d'exécution: ").strip().lower()
-        
-    if mode not in valid_modes:
-        logger.error(f"Mode non valide. Utilisez: {', '.join(valid_modes)}")
-        sys.exit(1)
-        
+        mode = input("Mode d'exécution (test/train): ").strip().lower()
+    
     if mode == "test":
         success = run_quick_test()
         if not success:

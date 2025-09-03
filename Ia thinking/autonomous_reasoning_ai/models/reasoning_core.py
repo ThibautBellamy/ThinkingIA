@@ -14,10 +14,10 @@ class AutonomousReasoningCore(nn.Module):
         super().__init__()
         
         # Utilise la config globale si pas de paramètres fournis
-        self.input_dim = input_dim or config.model.input_dim
-        self.hidden_dim = hidden_dim or config.model.hidden_dim
-        self.max_reasoning_steps = config.model.max_reasoning_steps
-        self.dropout_rate = config.model.dropout_rate
+        self.input_dim = input_dim or config.get('model.input_dim', 128)
+        self.hidden_dim = hidden_dim or config.get('model.hidden_dim', 512)
+        self.max_reasoning_steps = config.get('model.max_reasoning_steps', 5)
+        self.dropout_rate = config.get('model.dropout_rate', 0.1)
         
         # Architecture avec capacité de raisonnement récurrent
         self.input_encoder = nn.Sequential(

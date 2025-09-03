@@ -26,9 +26,36 @@ class ExperimentRunner:
         self.problem_generator = problem_generator
         self.config = config_obj or config
         
-        # Configuration de l'expérimentation
-        self.experiment_name = f"{self.config.experiment.experiment_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-        self.experiment_dir = os.path.join(self.config.experiment.results_dir, self.experiment_name)
+        # Raccourcis/valeurs dérivées depuis la config YAML
+        # Dossiers d'expérimentation
+        self.results_dir = self.config.get('experiment.paths.results_dir', './results')
+        self.log_dir = self.config.get('experiment.paths.log_dir', './logs')
+        
+        # Nom d'expérience (fallback si non défini)
+        self.experiment_name = self.config.get('experiment.name', None)
+        if not self.experiment_name:
+            project_name = self.config.get('project.name', 'experiment')
+            self.experiment_name = f"{project_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+        
+        # TensorBoard activé ? (par défaut oui)
+        self.tensorboard_enabled = self.config.get('experiment.logging.tensorboard_enabled', True)
+        
+        # Fréquences
+        self.save_every_n_steps = self.config.get('experiment.logging.save_every_n_steps', 500)
+        self.log_every_n_steps = self.config.get('experiment.logging.log_every_n_steps', 100)
+        self.eval_every_n_steps = self.config.get('experiment.logging.eval_every_n_steps', 250)
+        
+        # Curriculum learning (chemins YAML)
+        self.initial_complexity = self.config.get('training.curriculum.initial_complexity', 1)
+        self.max_complexity = self.config.get('training.curriculum.max_complexity', 5)
+        self.complexity_threshold = self.config.get('training.curriculum.complexity_threshold', 0.75)
+        self.min_steps_per_level = self.config.get('training.curriculum.min_steps_per_level', 20)
+        
+        # Critères de progression (valeurs par défaut si absents)
+        self.use_flexible_criteria = self.config.get('training.curriculum.use_flexible_criteria', True)
+        self.min_accuracy_threshold = self.config.get('training.curriculum.min_accuracy_threshold', 0.1)
+        # Dossier de cette exécution
+        self.experiment_dir = os.path.join(self.results_dir, self.experiment_name)
         
         # Création des répertoires
         os.makedirs(self.experiment_dir, exist_ok=True)
@@ -36,9 +63,9 @@ class ExperimentRunner:
         os.makedirs(os.path.join(self.experiment_dir, "visualizations"), exist_ok=True)
         
         # TensorBoard
-        if self.config.experiment.tensorboard_enabled:
+        if self.tensorboard_enabled:
             self.tb_writer = SummaryWriter(
-                os.path.join(self.config.experiment.log_dir, self.experiment_name)
+                os.path.join(self.log_dir, self.experiment_name)
             )
         else:
             self.tb_writer = None
@@ -46,7 +73,8 @@ class ExperimentRunner:
         # Historique de l'expérimentation
         self.experiment_log = {
             'start_time': datetime.now().isoformat(),
-            'config': self.config.to_dict(),
+            # Sauvegarder une vue de la config YAML
+            'config': getattr(self.config, 'config_data', {}) if hasattr(self.config, 'config_data') else {},
             'epochs': [],
             'best_performance': {},
             'complexity_progression': []
@@ -59,7 +87,7 @@ class ExperimentRunner:
         """Sauvegarde la configuration de l'expérimentation"""
         config_path = os.path.join(self.experiment_dir, "config.json")
         with open(config_path, 'w') as f:
-            json.dump(self.config.to_dict(), f, indent=2)
+            json.dump(getattr(self.config, 'config_data', {}), f, indent=2)
     
     def _log_to_tensorboard(self, metrics: Dict, step: int, prefix: str = ""):
         """Log des métriques vers TensorBoard"""
@@ -123,15 +151,15 @@ class ExperimentRunner:
         # Vérifier les 3 dernières performances
         recent_rewards = [h['total_reward'] for h in complexity_history[-3:]]
         avg_reward = sum(recent_rewards) / len(recent_rewards)
-        
-        return avg_reward > self.config.training.complexity_threshold
+        # Seuil depuis YAML (training.curriculum.complexity_threshold)
+        return avg_reward > self.complexity_threshold
     
     def run_curriculum_learning(self):
         """Execute le curriculum learning avec complexité progressive"""
         logger.info("🎓 Démarrage du curriculum learning")
         
-        current_complexity = self.config.training.initial_complexity
-        max_complexity = self.config.training.max_complexity
+        current_complexity = self.initial_complexity
+        max_complexity = self.max_complexity
         
         complexity_history = []
         global_step = 0
@@ -166,28 +194,34 @@ class ExperimentRunner:
                     # Logging
                     self._log_to_tensorboard(combined_metrics, global_step, f"complexity_{current_complexity}")
                     
-                    # Log des histogrammes tous les 50 steps (au lieu de 10)
-                    if global_step % 50 == 0:
+                    # Log des histogrammes à intervalle régulier
+                    if global_step % max(1, self.log_every_n_steps) == 0:
                         self._log_model_histograms(global_step)
                     
                     domain_history.append(combined_metrics)
                     
                     # Sauvegarde périodique
-                    if global_step % self.config.training.save_every == 0:
+                    if global_step % max(1, self.save_every_n_steps) == 0:
                         self._save_checkpoint(global_step, combined_metrics)
                     
-                    logger.info(f"Step {global_step}: Reward={combined_metrics['total_reward']:.4f}, "
-                               f"Accuracy={combined_metrics['accuracy']:.4f}")
+                    logger.info(
+                        f"Step {global_step}: Reward={combined_metrics['total_reward']:.4f}, "
+                        f"Accuracy={combined_metrics['accuracy']:.4f}"
+                    )
                     
                     epochs_at_complexity += 1
                     global_step += 1
                     steps_since_complexity_change += 1
                     
                     # Vérifier si on peut passer à la complexité suivante
-                    # Critères réalistes : au moins 20 steps ET performance suffisante
-                    if (steps_since_complexity_change >= self.config.training.min_steps_per_level and 
-                        self._should_increase_complexity(domain_history)):
-                        logger.info(f"✅ Performance suffisante atteinte pour {domain} après {steps_since_complexity_change} steps")
+                    # Critères réalistes : au moins N steps ET performance suffisante
+                    if (
+                        steps_since_complexity_change >= self.min_steps_per_level
+                        and self._should_increase_complexity(domain_history)
+                    ):
+                        logger.info(
+                            f"✅ Performance suffisante atteinte pour {domain} après {steps_since_complexity_change} steps"
+                        )
                         break
                 
                 complexity_history.extend(domain_history)
@@ -207,34 +241,38 @@ class ExperimentRunner:
             # Décision de progression basée sur les paramètres du config
             avg_reward = sum(
                 eval_result['total_reward'] for eval_result in complexity_evaluation.values()
-            ) / len(complexity_evaluation)
+            ) / max(1, len(complexity_evaluation))
             
             avg_accuracy = sum(
                 eval_result['accuracy'] for eval_result in complexity_evaluation.values()
-            ) / len(complexity_evaluation)
+            ) / max(1, len(complexity_evaluation))
             
             # Critères configurables depuis config.py
-            reward_ok = avg_reward > self.config.training.complexity_threshold
-            accuracy_ok = avg_accuracy > self.config.training.min_accuracy_threshold
+            reward_ok = avg_reward > self.complexity_threshold
+            accuracy_ok = avg_accuracy > self.min_accuracy_threshold
             
             # Logique flexible (OU) ou stricte (ET) selon config
-            if self.config.training.use_flexible_criteria:
+            if self.use_flexible_criteria:
                 criteria_met = reward_ok or accuracy_ok  # L'un OU l'autre suffit
             else:
                 criteria_met = reward_ok and accuracy_ok  # Les deux requis
             
             if criteria_met:
                 current_complexity += 1
-                logger.info(f"🚀 Progression vers la complexité {current_complexity} "
-                           f"(Reward: {avg_reward:.3f}, Accuracy: {avg_accuracy:.3f})")
+                logger.info(
+                    f"🚀 Progression vers la complexité {current_complexity} "
+                    f"(Reward: {avg_reward:.3f}, Accuracy: {avg_accuracy:.3f})"
+                )
                 
                 # RÉINITIALISATION : Reset pour nouveau niveau
                 self.trainer.reset_success_history()
                 steps_since_complexity_change = 0
                 logger.info("🔄 Historique réinitialisé pour le nouveau niveau de complexité")
             else:
-                logger.info(f"⏳ Performance insuffisante, continuation à la complexité {current_complexity} "
-                           f"(Reward: {avg_reward:.3f}, Accuracy: {avg_accuracy:.3f})")
+                logger.info(
+                    f"⏳ Performance insuffisante, continuation à la complexité {current_complexity} "
+                    f"(Reward: {avg_reward:.3f}, Accuracy: {avg_accuracy:.3f})"
+                )
     
     def run_standard_training(self):
         """Execute un entraînement standard sans curriculum"""
@@ -242,14 +280,15 @@ class ExperimentRunner:
         
         global_step = 0
         
-        for epoch in range(self.config.training.max_epochs):
-            logger.info(f"📈 Époque {epoch + 1}/{self.config.training.max_epochs}")
+        max_epochs = self.config.get('training.max_epochs', 100)
+        for epoch in range(max_epochs):
+            logger.info(f"📈 Époque {epoch + 1}/{max_epochs}")
             
             epoch_metrics = []
             
             # Entraînement sur tous les domaines et complexités
             for domain in self.problem_generator.get_available_domains():
-                for complexity in range(1, self.config.training.max_complexity + 1):
+                for complexity in range(1, self.max_complexity + 1):
                     batch_metrics = self.trainer.train_epoch(
                         domain, complexity, num_batches=5
                     )
@@ -276,9 +315,8 @@ class ExperimentRunner:
             
             self.experiment_log['epochs'].append(avg_metrics)
             
-            # Sauvegarde
-            if epoch % self.config.training.save_every == 0:
-                self._save_checkpoint(epoch, avg_metrics)
+            # Sauvegarde (par défaut à chaque époque)
+            self._save_checkpoint(epoch, avg_metrics)
             
             logger.info(f"Époque {epoch}: Reward moyen={avg_metrics.get('total_reward', 0):.4f}")
     

@@ -8,7 +8,6 @@ import torch
 import torch.nn as nn
 import logging
 from typing import Dict, List, Optional
-from ..config import config
 from ..models.problem import Problem
 
 logger = logging.getLogger(__name__)

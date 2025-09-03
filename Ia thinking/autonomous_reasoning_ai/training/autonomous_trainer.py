@@ -2,6 +2,7 @@
 Système d'apprentissage autonome
 """
 
+from xml.parsers.expat import model
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -10,7 +11,6 @@ from typing import List, Dict
 import logging
 
 from ..problem_generators import ProblemGenerator, Problem
-from .. import config
 from ..config import config
 
 logger = logging.getLogger(__name__)
@@ -18,27 +18,52 @@ logger = logging.getLogger(__name__)
 class AutonomousLearningTrainer:
     """Système d'apprentissage autonome"""
     
-    def __init__(self, model, problem_generator: ProblemGenerator):
+    def __init__(self, model, problem_generator: ProblemGenerator, config):
         self.model = model
         self.problem_generator = problem_generator
         self.success_history = []
         
-        # Optimiseur
-        self.optimizer = optim.AdamW(
-            model.parameters(), 
-            lr=config.training.learning_rate,
-            weight_decay=1e-5
-        )
-        
-        # Scheduler d'apprentissage - Anti-oscillation
-        self.scheduler = optim.lr_scheduler.ReduceLROnPlateau(
-            self.optimizer,
-            mode='max',
-            factor=0.8,    # Réduction douce
-            patience=10,   # Plus de patience
-            min_lr=1e-7,   # LR très bas
-            threshold=0.001  # Seuil d'amélioration petit
-        )
+        self.config = config  # ✅ Configuration YAML
+         # ✅ PROTECTION : Vérifier si model existe avant d'initialiser l'optimiseur
+        if model is not None:
+            # Paramètres depuis la config YAML
+            self.learning_rate = config.get('training.learning_rate')
+            self.batch_size = config.get('training.batch_size')
+            self.max_epochs = config.get('training.max_epochs')
+            
+            # Configuration de l'optimiseur depuis la config
+            optimizer_name = config.get('training.optimizer.name', 'adamw')
+            weight_decay = config.get('training.optimizer.weight_decay', 0.01)
+            
+            if optimizer_name.lower() == 'adamw':
+                self.optimizer = torch.optim.AdamW(
+                    model.parameters(),
+                    lr=self.learning_rate,
+                    weight_decay=weight_decay
+                )
+            elif optimizer_name.lower() == 'adam':
+                self.optimizer = torch.optim.Adam(
+                    model.parameters(),
+                    lr=self.learning_rate
+                )
+
+            # Scheduler d'apprentissage - Anti-oscillation
+            self.scheduler = optim.lr_scheduler.ReduceLROnPlateau(
+                self.optimizer,
+                mode='max',
+                factor=0.8,    # Réduction douce
+                patience=10,   # Plus de patience
+                min_lr=1e-7,   # LR très bas
+                threshold=0.001  # Seuil d'amélioration petit
+            )
+        else:
+            # ✅ MODE TEST : Initialisation minimale quand model=None
+            print("⚠️  Mode test détecté - model=None, initialisation minimale")
+            self.optimizer = None
+            self.scheduler = None
+            self.learning_rate = config.get('training.learning_rate')
+            self.batch_size = config.get('training.batch_size')
+            self.max_epochs = config.get('training.max_epochs')
         
         # Historique des métriques
         self.metrics_history = {
@@ -50,8 +75,8 @@ class AutonomousLearningTrainer:
         }
         
         # Configuration pour mixed precision
-        if config.use_mixed_precision and torch.cuda.is_available():
-            self.scaler = torch.amp.GradScaler('cuda')
+        if getattr(config, 'use_mixed_precision', False) and torch.cuda.is_available():
+            self.scaler = torch.amp.GradScaler()
             self.use_amp = True
         else:
             self.scaler = None
@@ -92,7 +117,7 @@ class AutonomousLearningTrainer:
         device = next(self.model.parameters()).device
         
         # Loss de base (comme avant)
-        base_loss = self.compute_loss(results, problems, config)
+        base_loss = self.compute_loss(results, problems, self.config)
         
         # Calcul des récompenses
         consistency_reward = self.entropy_based_reward(solutions)
@@ -121,11 +146,15 @@ class AutonomousLearningTrainer:
         else:
             validation_reward = 0.2  # Récompense de base quand pas de validation
         
-        # Calcul total avec minimum garanti
+        # Calcul total avec minimum garanti - ✅ CORRIGÉ
+        consistency_weight = self.config.get('training.self_supervision.consistency_weight', 0.5)
+        confidence_weight = self.config.get('training.self_supervision.confidence_weight', 0.3)
+        validation_weight = self.config.get('training.self_supervision.validation_weight', 0.2)
+        
         total_reward = max(0.05, (
-            config.training.consistency_weight * consistency_reward +
-            config.training.confidence_weight * max(confidence_reward, 0.1) +
-            config.training.validation_weight * validation_reward
+            consistency_weight * consistency_reward +
+            confidence_weight * max(confidence_reward, 0.1) +
+            validation_weight * validation_reward
         ))
         
         # **INNOVATION** : Modifier la loss avec les récompenses
@@ -152,6 +181,11 @@ class AutonomousLearningTrainer:
         device = next(self.model.parameters()).device
         total_loss = torch.tensor(0.0, device=device, requires_grad=True)
         
+        # ✅ CORRIGÉ - Utilisation de config.get()
+        consistency_weight = config.get('training.self_supervision.consistency_weight', 0.5)
+        confidence_weight = config.get('training.self_supervision.confidence_weight', 0.3)
+        validation_weight = config.get('training.self_supervision.validation_weight', 0.2)
+        
         for result, problem in zip(results, problems):
             # Loss de consistance STABLE (MSE vers target fixe)
             consistency_target = torch.tensor(0.9, device=device)  # Cible stable
@@ -174,9 +208,9 @@ class AutonomousLearningTrainer:
             
             # Combinaison STABLE des losses
             combined_loss = (
-                config.training.consistency_weight * consistency_loss +
-                config.training.confidence_weight * confidence_loss +
-                config.training.validation_weight * validation_loss
+                consistency_weight * consistency_loss +
+                confidence_weight * confidence_loss +
+                validation_weight * validation_loss
             )
             
             total_loss = total_loss + combined_loss
@@ -207,7 +241,7 @@ class AutonomousLearningTrainer:
                     
                     # Prendre le meilleur résultat
                     best_idx = max(range(len(problem_results)), 
-                                 key=lambda i: problem_results[i]['final_confidence'].mean())
+                                   key=lambda i: problem_results[i]['final_confidence'].mean())
                     
                     results.append(problem_results[best_idx])
                     solutions.extend(problem_solutions)
@@ -229,7 +263,7 @@ class AutonomousLearningTrainer:
                 
                 # Prendre le meilleur résultat
                 best_idx = max(range(len(problem_results)), 
-                             key=lambda i: problem_results[i]['final_confidence'].mean())
+                               key=lambda i: problem_results[i]['final_confidence'].mean())
                 
                 results.append(problem_results[best_idx])
                 solutions.extend(problem_solutions)
@@ -298,9 +332,9 @@ class AutonomousLearningTrainer:
         }
         
         for batch_idx in range(num_batches):
-            # Génère un batch de problèmes
+            # ✅ CORRIGÉ - Utilisation de self.config.get()
             problems = self.problem_generator.generate_batch(
-                domain, complexity, config.training.batch_size
+                domain, complexity, self.config.get('training.batch_size')
             )
             
             # Entraînement sur ce batch
@@ -324,7 +358,7 @@ class AutonomousLearningTrainer:
         self.scheduler.step(epoch_metrics['total_reward'])
         
         logger.info(f"Époque terminée - Loss: {epoch_metrics['loss']:.4f}, "
-                   f"Reward: {epoch_metrics['total_reward']:.4f}")
+                  f"Reward: {epoch_metrics['total_reward']:.4f}")
         
         return epoch_metrics
     
@@ -333,9 +367,10 @@ class AutonomousLearningTrainer:
         if len(recent_performance) < 5:
             return False
         
-        # Moyenne des 5 dernières performances
+        # ✅ CORRIGÉ - Utilisation de self.config.get()
         avg_performance = sum(recent_performance[-5:]) / 5
-        return avg_performance > config.training.complexity_threshold
+        threshold = self.config.get('training.curriculum.complexity_threshold', 0.75)
+        return avg_performance > threshold
     
     def get_training_summary(self) -> Dict:
         """Retourne un résumé de l'entraînement"""

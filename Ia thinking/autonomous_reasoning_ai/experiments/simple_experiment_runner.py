@@ -73,7 +73,7 @@ class SimpleExperimentRunner:
             problems = self.problem_generator.generate_batch(
                 domain=self.current_domain,
                 complexity=self.current_complexity,
-                batch_size=config.training.batch_size
+                batch_size=config.get('training.batch_size', 32)
             )
             
             # 2. Entraîne sur ce batch
