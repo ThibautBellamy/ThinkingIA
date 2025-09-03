@@ -16,7 +16,7 @@ def test_model_direct():
     print("📂 Chargement du modèle...")
     model, problem_generator, _ = initialize_components()
     model.eval()
-    
+        
     # Test 1: Problèmes générés automatiquement
     print("\n🤖 Test 1: Problèmes générés automatiquement")
     print("-" * 40)

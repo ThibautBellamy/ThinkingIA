@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 class AutonomousLearningTrainer:
     """Système d'apprentissage autonome"""
     
-    def __init__(self, model, problem_generator: ProblemGenerator, config):
+    def __init__(self, model, problem_generator: ProblemGenerator):
         self.model = model
         self.problem_generator = problem_generator
         self.success_history = []

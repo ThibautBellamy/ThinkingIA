@@ -2,6 +2,7 @@
 Cœur du système de raisonnement autonome
 """
 
+from venv import logger
 import torch
 import torch.nn as nn
 from typing import Dict, List, Tuple
@@ -10,22 +11,23 @@ from ..config import config
 class AutonomousReasoningCore(nn.Module):
     """Cœur du système de raisonnement autonome"""
     
-    def __init__(self, input_dim: int = None, hidden_dim: int = None):
+    def __init__(self):
         super().__init__()
+        self.config = config
+
+        # ✅ CONVERSION EXPLICITE EN INT
+        self.input_dim = int(config.get('model.input_dim', 128))
+        self.hidden_dim = int(config.get('model.hidden_dim', 512))
+        self.max_reasoning_steps = int(config.get('model.max_reasoning_steps', 5))
+        self.dropout_rate = float(config.get('model.dropout_rate', 0.1))
+      
+        # Validation des valeurs
+        assert isinstance(self.input_dim, int), f"input_dim doit être int, reçu: {type(self.input_dim)}"
+        assert isinstance(self.hidden_dim, int), f"hidden_dim doit être int, reçu: {type(self.hidden_dim)}"
+        assert self.input_dim > 0, f"input_dim doit être > 0, reçu: {self.input_dim}"
+        assert self.hidden_dim > 0, f"hidden_dim doit être > 0, reçu: {self.hidden_dim}"
         
-        # Utilise la config globale si pas de paramètres fournis
-        self.input_dim = input_dim or config.get('model.input_dim', 128)
-        self.hidden_dim = hidden_dim or config.get('model.hidden_dim', 512)
-        self.max_reasoning_steps = config.get('model.max_reasoning_steps', 5)
-        self.dropout_rate = config.get('model.dropout_rate', 0.1)
-        
-        # Architecture avec capacité de raisonnement récurrent
-        self.input_encoder = nn.Sequential(
-            nn.Linear(self.input_dim, self.hidden_dim),
-            nn.LayerNorm(self.hidden_dim),
-            nn.ReLU(),
-            nn.Dropout(self.dropout_rate)
-        )
+        print("✅ Validation des dimensions réussie !")
         
         # Bloc de raisonnement récurrent (innovation clé)
         self.reasoning_lstm = nn.LSTM(

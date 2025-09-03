@@ -70,7 +70,7 @@ def initialize_components():
             logger.warning(f"⚠️  Générateur patterns désactivé: {e}")
     
     # Création du modèle
-    model = AutonomousReasoningCore(config)
+    model = AutonomousReasoningCore()
     model = model.to(config.get('model.device'))
     
     # Compilation du modèle si supportée
@@ -82,7 +82,7 @@ def initialize_components():
             logger.warning(f"Impossible de compiler le modèle: {e}")
     
     # Création du trainer
-    trainer = AutonomousLearningTrainer(model, problem_generator, config)
+    trainer = AutonomousLearningTrainer(model, problem_generator)
     
     return model, problem_generator, trainer
 

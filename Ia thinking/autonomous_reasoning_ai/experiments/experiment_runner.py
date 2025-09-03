@@ -30,12 +30,10 @@ class ExperimentRunner:
         # Dossiers d'expérimentation
         self.results_dir = self.config.get('experiment.paths.results_dir', './results')
         self.log_dir = self.config.get('experiment.paths.log_dir', './logs')
+        project_name = self.config.get('project.name', 'experiment')
         
         # Nom d'expérience (fallback si non défini)
-        self.experiment_name = self.config.get('experiment.name', None)
-        if not self.experiment_name:
-            project_name = self.config.get('project.name', 'experiment')
-            self.experiment_name = f"{project_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+        self.experiment_name = f"{project_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
         
         # TensorBoard activé ? (par défaut oui)
         self.tensorboard_enabled = self.config.get('experiment.logging.tensorboard_enabled', True)
