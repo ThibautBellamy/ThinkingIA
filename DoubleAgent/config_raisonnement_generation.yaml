@@ -1,0 +1,29 @@
+# config_raisonnement_generation.yaml
+model:
+  name: "gpt2"  # ou "camembert-base" mais GPT-2 est meilleur pour génération
+  
+training:
+  output_dir: "./finetuned/camembert-finetuned-raisonnement"
+  num_train_epochs: 3
+  per_device_train_batch_size: 4  # Plus petit pour génération
+  per_device_eval_batch_size: 4
+  warmup_steps: 500
+  weight_decay: 0.01
+  logging_dir: "./logs/logs-raisonnement"
+  logging_steps: 50
+  eval_strategy: "steps"
+  eval_steps: 200
+  save_strategy: "steps"
+  save_steps: 500
+  load_best_model_at_end: true
+  seed: 42
+
+tokenizer:
+  max_length: 512  # Plus long pour les raisonnements
+  truncation: true
+  padding: "max_length"
+  return_tensors: "pt"
+
+data:
+  test_size: 0.2
+  random_state: 42

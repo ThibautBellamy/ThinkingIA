@@ -5,7 +5,7 @@ import sys
 
 class DatasetConceptsEnrichi:
     """
-    Dataset enrichi avec beaucoup plus d'exemples pour chaque concept
+    Version corrigée qui évite les boucles infinies
     """
     def __init__(self):
         self.data_concepts = {
@@ -177,14 +177,11 @@ class DatasetConceptsEnrichi:
             ],
             
             "affirmation_factuelle": [
-                # Faits scientifiques
                 "La température est de 20 degrés",
                 "Cette méthode fonctionne correctement",
                 "Le projet sera terminé demain", 
                 "Python est un langage de programmation",
                 "Cette approche s'avère efficace",
-                
-                # Déclarations factuelles
                 "Il pleut depuis ce matin",
                 "La réunion commence à 14h30",
                 "Le rapport contient 50 pages",
@@ -192,285 +189,196 @@ class DatasetConceptsEnrichi:
                 "Le train part de la voie 3",
                 "Cette information figure page 25",
                 "Le taux d'inflation atteint 3%",
-                
-                # Constatations objectives
                 "Les résultats montrent une amélioration",
                 "Cette technique donne des résultats probants",
                 "L'expérience confirme notre hypothèse",
                 "Les données indiquent une tendance positive",
                 "Cette mesure produit l'effet escompté",
                 "L'analyse révèle des points importants",
-                
-                # Faits établis
                 "Cette loi est entrée en vigueur hier",
                 "Le contrat expire le mois prochain",
                 "Cette version corrige les bugs précédents",
                 "Le nouveau système est opérationnel",
                 "Cette procédure respecte les normes",
-                "Le budget alloué s'élève à 50 000 euros",
-                
-                # Informations vérifiables
-                "Cette étude porte sur 1000 participants",
-                "Le taux de réussite atteint 95%",
-                "Cette formation dure trois jours",
-                "L'événement se déroule au Palais des Congrès",
-                "Cette technologie existe depuis 2010",
-                "Le délai de livraison est de deux semaines",
-                
-                # États de fait
-                "Tous les documents sont signés",
-                "La base de données contient 10 000 entrées",
-                "Cette version inclut de nouvelles fonctionnalités",
-                "Le serveur fonctionne correctement",
-                "Cette machine produit 100 pièces par heure",
-                "Le test d'intégration est réussi"
+                "Le budget alloué s'élève à 50 000 euros"
             ],
             
             "demande_action": [
-                # Demandes polies
                 "Peux-tu m'aider à résoudre ceci ?",
                 "Veux-tu bien faire cette tâche ?",
                 "Pourrais-tu m'expliquer la méthode ?",
                 "Aide-moi à comprendre ce concept",
                 "Montre-moi comment procéder",
-                
-                # Demandes formelles
                 "Pourriez-vous bien vouloir m'assister ?",
                 "Seriez-vous en mesure de m'orienter ?",
                 "Auriez-vous l'amabilité de m'expliquer ?",
-                "Pourriez-vous avoir la gentillesse de ?",
-                "Voudriez-vous bien me renseigner sur ?",
-                
-                # Demandes directes
                 "Fais-moi un résumé de ce document",
                 "Envoie-moi le rapport demain matin",
                 "Prépare la présentation pour jeudi",
                 "Vérifie ces calculs s'il te plaît",
                 "Corrige cette erreur rapidement",
                 "Finalise ce projet avant vendredi",
-                
-                # Requêtes techniques
                 "Peux-tu déboguer ce code ?",
                 "Lance l'analyse sur ce dataset",
                 "Configure ce serveur pour la production",
                 "Optimise cette requête SQL",
                 "Teste cette nouvelle fonctionnalité",
-                "Déploie cette version en staging",
-                
-                # Demandes de collaboration
-                "Travaillons ensemble sur ce problème",
-                "Pouvons-nous planifier une session de brainstorming ?",
-                "Organisons une réunion pour faire le point",
-                "Coordonnons nos efforts sur ce projet",
-                "Répartissons-nous les tâches équitablement",
-                
-                # Instructions spécifiques
-                "Commence par analyser les données",
-                "Prends en compte ces contraintes",
-                "Respecte ces spécifications techniques",
-                "Suis cette procédure étape par étape",
-                "Applique cette méthode rigoureusement",
-                "Intègre ces modifications au code",
-                
-                # Demandes urgentes
-                "Il faut absolument terminer ça aujourd'hui",
-                "Peux-tu traiter ça en priorité ?",
-                "Cette tâche ne peut pas attendre",
-                "Il est urgent de résoudre ce problème",
-                "Dépêche-toi de finir cette partie"
+                "Déploie cette version en staging"
             ],
             
             "expression_emotion": [
-                # Joie et satisfaction
                 "Je suis vraiment content de ce résultat",
                 "Je suis fier de notre accomplissement",
                 "Cela me remplit de bonheur",
                 "Je déborde de joie en voyant ça",
                 "Cette réussite me ravit énormément",
-                "Je suis aux anges avec ce succès",
-                "Quelle fierté de voir ce projet aboutir",
-                
-                # Tristesse et déception
                 "Cela me rend triste de voir ça", 
                 "Je suis déçu par ces résultats",
                 "Cette situation me chagrine profondément",
-                "J'ai le cœur lourd en pensant à ça",
-                "Cette nouvelle m'attriste beaucoup",
-                "Je ressens une grande mélancolie",
-                "Cette défaite me décourage énormément",
-                
-                # Peur et anxiété
                 "J'ai peur que ça ne marche pas",
                 "Cette situation m'inquiète beaucoup",
                 "Je suis angoissé par cette perspective",
-                "Cette incertitude me stresse énormément",
-                "J'appréhende la suite des événements",
-                "Cette menace me terrorise",
-                "Je tremble à l'idée de",
-                
-                # Colère et frustration
                 "Cette injustice me met en colère",
                 "Je suis furieux de cette décision",
                 "Cela m'exaspère au plus haut point",
-                "Cette situation me frustre énormément",
-                "Je bouillonne de rage intérieurement",
-                "Cette attitude m'agace profondément",
-                "Je suis outré par ce comportement",
-                
-                # Surprise et étonnement
                 "Je suis stupéfait par cette nouvelle",
                 "Cette révélation me surprend énormément",
-                "Je n'en reviens pas de ce retournement",
-                "Cette découverte me sidère complètement",
-                "Je reste bouche bée devant ce résultat",
-                "Cette performance m'épate vraiment",
-                
-                # Amour et affection
                 "J'adore cette nouvelle approche",
                 "Je suis fou amoureux de cette idée",
-                "Cette méthode me plaît énormément",
-                "J'ai un faible pour cette solution",
-                "Cette proposition me séduit vraiment",
-                "Je craque complètement pour ce concept",
-                
-                # Espoir et optimisme
                 "J'espère sincèrement que ça marchera",
-                "Je garde confiance en notre capacité",
-                "Cette possibilité m'encourage beaucoup",
-                "Je vois l'avenir avec optimisme",
-                "Cette perspective me donne de l'espoir",
-                "Je crois fermement en notre succès"
+                "Je garde confiance en notre capacité"
             ],
             
             "analyse_critique": [
-                # Critique constructive
                 "Cette approche présente des failles",
                 "Il faut examiner cette méthode plus attentivement", 
                 "Cette conclusion me semble discutable",
                 "Analysons les points faibles de cette théorie",
                 "Cette démonstration contient des erreurs",
-                
-                # Évaluation méthodologique
                 "Cette étude manque de rigueur scientifique",
                 "L'échantillon utilisé n'est pas représentatif",
                 "Cette méthodologie présente des biais évidents",
-                "Les variables n'ont pas été correctement contrôlées",
-                "Cette analyse statistique est insuffisante",
-                "Les conclusions dépassent ce que montrent les données",
-                
-                # Remise en question
                 "Cette hypothèse mérite d'être questionnée",
                 "Il convient de remettre en cause ce postulat",
-                "Cette affirmation demande à être vérifiée",
-                "Ce raisonnement souffre d'incohérences",
-                "Cette logique présente des contradictions",
-                "Cette argumentation manque de solidité",
-                
-                # Analyse comparative
                 "Cette solution est moins efficace que l'alternative",
                 "Comparativement, cette méthode montre des limites",
-                "Cette approche pâlit face à la concurrence",
-                "En regard des autres options, celle-ci déçoit",
-                "Cette performance reste en deçà des attentes",
-                "Cette proposition ne rivalise pas avec",
-                
-                # Critique technique
                 "Cette architecture logicielle présente des vulnérabilités",
                 "Ce code manque d'optimisation et de clarté",
-                "Cette conception ignore les bonnes pratiques",
-                "Cette implémentation souffre de problèmes de performance",
-                "Cette solution technique n'est pas scalable",
-                "Ce design pattern n'est pas approprié ici",
-                
-                # Évaluation stratégique
                 "Cette stratégie néglige des aspects cruciaux",
-                "Ce plan présente des risques sous-estimés",
-                "Cette décision manque de vision à long terme",
-                "Cette politique ignore les effets secondaires",
-                "Cette approche manque de cohérence globale",
-                "Cette orientation stratégique est questionnaire"
+                "Ce plan présente des risques sous-estimés"
             ]
         }
     
-    def generer_dataset_concepts_enrichi(self, taille_par_concept=500):
+    def generer_variations_intelligentes(self, phrase_base, concept):
         """
-        Génère un dataset très enrichi avec beaucoup d'exemples
+        Génère des variations plus créatives pour éviter l'épuisement
+        """
+        # Noms variés pour les substitutions
+        noms = ["Marie", "Paul", "Sophie", "Thomas", "Emma", "Lucas", "Léa", "Antoine", 
+                "Valérie", "Pierre", "Julie", "Marc", "Sarah", "David", "Lisa", "Jean"]
+        
+        # Salutations variées
+        salutations = ["Bonjour", "Salut", "Bonsoir", "Hello", "Coucou", "Hey"]
+        
+        # Verbes de présentation
+        verbes_presentation = ["je m'appelle", "je me nomme", "moi c'est", "je suis"]
+        
+        variations = [phrase_base]  # Inclure la phrase de base
+        
+        if concept == "salutation_presentation":
+            # Changer les noms
+            for nom in random.sample(noms, 3):
+                for ancien_nom in noms:
+                    if ancien_nom in phrase_base:
+                        variations.append(phrase_base.replace(ancien_nom, nom))
+            
+            # Changer les salutations
+            for salut in salutations:
+                for ancien_salut in salutations:
+                    if ancien_salut in phrase_base:
+                        variations.append(phrase_base.replace(ancien_salut, salut))
+            
+            # Changer les verbes de présentation
+            for verbe in verbes_presentation:
+                for ancien_verbe in verbes_presentation:
+                    if ancien_verbe in phrase_base:
+                        variations.append(phrase_base.replace(ancien_verbe, verbe))
+        
+        elif concept == "questionnement_interrogation":
+            # Variations de politesse
+            variations.extend([
+                phrase_base.replace("tu", "vous"),
+                phrase_base.replace("peux-tu", "pourriez-vous"),
+                phrase_base.replace("Comment", "De quelle manière"),
+                phrase_base.replace("Pourquoi", "Pour quelle raison"),
+                phrase_base.replace("?", " exactement ?"),
+                phrase_base.replace("Qu'est-ce que", "Que")
+            ])
+        
+        elif concept == "affirmation_factuelle":
+            # Variations de temps et quantités
+            variations.extend([
+                phrase_base.replace("20", str(random.randint(15, 25))),
+                phrase_base.replace("50", str(random.randint(40, 60))),
+                phrase_base.replace("demain", "bientôt"),
+                phrase_base.replace("correctement", "parfaitement"),
+                phrase_base.replace("efficace", "performante")
+            ])
+        
+        # Retourner une variation aléatoire différente de l'originale
+        variations_uniques = list(set(variations))  # Éliminer les doublons
+        if len(variations_uniques) > 1:
+            return random.choice([v for v in variations_uniques if v != phrase_base])
+        else:
+            # Si pas de variation possible, ajouter un suffixe aléatoire
+            suffixes = [" vraiment", " effectivement", " certainement", " absolument"]
+            return phrase_base + random.choice(suffixes)
+    
+    def generer_dataset_concepts_securise(self, taille_cible_par_concept=200):
+        """
+        Génération sécurisée qui évite les boucles infinies
         """
         dataset = []
         
-        # Ajouter toutes les données de base
-        for i, (concept, phrases) in enumerate(self.data_concepts.items()):
-            for phrase in phrases:
-                dataset.append({"text": phrase, "label": i, "concept": concept})
+        print("🔄 Génération du dataset sécurisée...")
         
-        # Générer des variations supplémentaires
         for i, (concept, phrases_base) in enumerate(self.data_concepts.items()):
-            phrases_existantes = [d['text'] for d in dataset if d['label'] == i]
+            print(f"   Traitement concept: {concept}")
             
-            while len(phrases_existantes) < taille_par_concept:
-                phrase_base = random.choice(self.data_concepts[concept])
-                phrase_variee = self._creer_variations_avancees(phrase_base, concept)
+            # Ajouter toutes les phrases de base
+            for phrase in phrases_base:
+                dataset.append({"text": phrase, "label": i, "concept": concept})
+            
+            # Calculer combien de variations ajouter
+            phrases_existantes = set(phrases_base)  # Utiliser un set pour rapidité
+            variations_ajoutees = 0
+            max_tentatives = taille_cible_par_concept * 10  # Limite de sécurité
+            tentatives = 0
+            
+            while len(phrases_existantes) < taille_cible_par_concept and tentatives < max_tentatives:
+                phrase_base = random.choice(phrases_base)  # Toujours partir des phrases originales
+                nouvelle_variation = self.generer_variations_intelligentes(phrase_base, concept)
                 
-                # Éviter les doublons
-                if phrase_variee not in phrases_existantes:
-                    dataset.append({"text": phrase_variee, "label": i, "concept": concept})
-                    phrases_existantes.append(phrase_variee)
+                if nouvelle_variation not in phrases_existantes:
+                    dataset.append({"text": nouvelle_variation, "label": i, "concept": concept})
+                    phrases_existantes.add(nouvelle_variation)
+                    variations_ajoutees += 1
+                
+                tentatives += 1
+            
+            print(f"     Base: {len(phrases_base)}, Variations: {variations_ajoutees}, Total: {len(phrases_existantes)}")
         
         random.shuffle(dataset)
         return dataset
     
-    def _creer_variations_avancees(self, phrase, concept):
+    def sauvegarder_dataset_securise(self, dataset, filename="datasets/dataset_concepts.json"):
         """
-        Crée des variations sophistiquées selon le concept
-        """
-        variations_par_concept = {
-            "salutation_presentation": [
-                phrase.replace("je m'appelle", "je me nomme"),
-                phrase.replace("je suis", "moi c'est"),
-                phrase.replace("Bonjour", "Salut"),
-                phrase.replace("Bonsoir", "Hello"),
-                phrase.replace("je me présente", "permettez-moi de me présenter"),
-                phrase.replace("nouveau", "nouvel arrivant"),
-                phrase.replace("collègue", "coéquipier"),
-            ],
-            
-            "questionnement_interrogation": [
-                phrase.replace("Qu'est-ce que", "Que"),
-                phrase.replace("Comment", "De quelle manière"),
-                phrase.replace("Pourquoi", "Pour quelle raison"),
-                phrase.replace("tu penses", "vous pensez"),
-                phrase.replace("peux-tu", "pourriez-vous"),
-                phrase.replace("?", " exactement ?"),
-                phrase.replace("Est-ce que", "Pensez-vous que"),
-            ],
-            
-            "raisonnement_logique": [
-                phrase.replace("cette", "cette présente"),
-                phrase.replace("logiquement", "de manière logique"),
-                phrase.replace("implique", "entraîne"),
-                phrase.replace("conclusion", "déduction"),
-                phrase.replace("prémisse", "postulat de base"),
-                phrase.replace("raisonnement", "argumentation"),
-            ],
-            
-            # Autres variations...
-        }
-        
-        if concept in variations_par_concept:
-            variations = variations_par_concept[concept]
-            variation_choisie = random.choice(variations + [phrase])
-            return variation_choisie
-        
-        return phrase
-    
-    def sauvegarder_dataset_enrichi(self, dataset, filename="./datasets/dataset_concepts.json"):
-        """
-        Sauvegarde le dataset enrichi
+        Sauvegarde avec statistiques complètes
         """
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(dataset, f, ensure_ascii=False, indent=2)
         
-        print(f"📊 Dataset ENRICHI sauvegardé : {len(dataset)} exemples au total")
+        print(f"\n📊 Dataset SÉCURISÉ sauvegardé : {len(dataset)} exemples")
         
         # Statistiques détaillées
         concepts_stats = {}
@@ -478,23 +386,32 @@ class DatasetConceptsEnrichi:
             concept = item['concept']
             concepts_stats[concept] = concepts_stats.get(concept, 0) + 1
         
-        print("\n📈 Distribution par concept:")
+        print("\n📈 Distribution finale par concept:")
         for concept, count in sorted(concepts_stats.items()):
             print(f"   {concept:25} : {count:4} exemples")
         
-        total_examples = sum(concepts_stats.values())
-        print(f"\n🎯 Total général: {total_examples} exemples")
-        print(f"⚖️  Équilibre: {total_examples // len(concepts_stats)} exemples/concept en moyenne")
+        total = sum(concepts_stats.values())
+        moyenne = total // len(concepts_stats)
+        print(f"\n🎯 Total: {total} | Moyenne: {moyenne} exemples/concept")
+        
+        return concepts_stats
 
 # Utilisation
 if __name__ == "__main__":
     creator = DatasetConceptsEnrichi()
-    taille_par_concept = 600
+    taille_par_concept = 150
     if len(sys.argv) > 1:
         try:
             taille_par_concept = int(sys.argv[1])
+            if taille_par_concept > 300:
+                print("⚠️ Taille limitée à 300 pour éviter les boucles infinies")
+                taille_par_concept = 300
         except ValueError:
             print("Usage: python dataset_creator.py [taille_par_concept]")
             sys.exit(1)  
-    dataset = creator.generer_dataset_concepts_enrichi(taille_par_concept)  # 600 exemples par concept !
-    creator.sauvegarder_dataset_enrichi(dataset)
+            
+    print(f"🎯 Génération de {taille_par_concept} exemples par concept")
+    dataset = creator.generer_dataset_concepts_securise(taille_par_concept)  # taille_par_concept exemples par concept !
+    creator.sauvegarder_dataset_securise(dataset)
+    
+    print("\n✅ Dataset créé avec succès !")

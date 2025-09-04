@@ -9,8 +9,8 @@ class BaseModeleFrancaisDoubleTuning:
     Modèle avec DOUBLE fine-tuning : questions/affirmations + concepts
     """
     def __init__(self, 
-                 model_questions_path="./camembert-finetuned/camembert-finetuned-questions",
-                 model_concepts_path="./camembert-finetuned/camembert-finetuned-concepts"):
+                 model_questions_path="./finetuned/camembert-finetuned-questions",
+                 model_concepts_path="./finetuned/camembert-finetuned-concepts"):
         
         print("🧠 Initialisation du système à DOUBLE fine-tuning")
         

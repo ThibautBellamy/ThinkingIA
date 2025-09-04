@@ -1,0 +1,4262 @@
+[
+  {
+    "text": "Prépare la présentation pour jeudi",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Tu veux dire quoi exactement  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Je suis fou amoureux de cette idée effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Coucou everyone ! Nous représentons l'association",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le train part de la voie 3 effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Les données indiquent une tendance positive certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Quelle méthode est la plus efficace ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette situation me chagrine profondément vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Qui aurait pu prévoir ça  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Ce plan présente des risques sous-estimés effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Le contrat expire le mois prochain effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette vision globale met en évidence",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Déploie cette version en staging absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Je suis stupéfait par cette nouvelle absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Analysons les points faibles de cette théorie",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Python est un langage de programmation",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette approche s'avère efficace",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "J'adore cette nouvelle approche vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Où trouver plus d'informations  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Bonjour, je m'appelle Marie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette loi est entrée en vigueur hier vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cela m'exaspère au plus haut point effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Bonsoir, je viens d'emménager dans le quartier",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "La température est de 19 degrés",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Bonjour à tous, je me nomme Pierre",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "L'analyse systémique montre l'interdépendance",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Il pleut depuis ce matin effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Configure ce serveur pour la production certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Comment résoudre ce problème  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette hypothèse mérite d'être questionnée",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette démonstration contient des erreurs",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Coucou, je m'appelle la baby-sitter des enfants",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette prémisse majeure combinée à cette prémisse mineure certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Salut, je suis stagiaire ici pour deux mois",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Les données indiquent une tendance positive effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette architecture logicielle présente des vulnérabilités vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Peux-tu m'aider à résoudre ceci ? vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Python est un langage de programmation effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Je me permets de me présenter, moi c'est votre nouveau voisin",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette loi générale s'applique à ce cas particulier vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Hey ! Moi c'est Sarah, ravie de vous voir",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette révélation me surprend énormément absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette prémisse majeure combinée à cette prémisse mineure absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le raisonnement par l'absurde montre que effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Où doit-on commencer ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Peux-tu préciser ta pensée  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "L'analyse systémique montre l'interdépendance certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cela me remplit de bonheur vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cela me rend triste de voir ça absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Aide-moi à comprendre ce concept vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "L'analyse révèle des points importants vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "La cause première de ce phénomène est vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Hello, je suis ta nouvelle collègue",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Salut les amis, je me présente : Julien",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette stratégie néglige des aspects cruciaux effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Yo ! Je suis le pote de Lucas",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "L'enchaînement logique suit cette progression",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Hey, je représente l'entreprise Dupont",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Bon après-midi, moi c'est Julie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Salut les amis, je me présente : Lucasn",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Comment définir le bonheur ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Il pleut depuis ce matin certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette démonstration repose sur ces axiomes",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Salut, je me nomme Alex et toi ?",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette approche holistique révèle que effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Ravi de vous rencontrer, je suis la directrice",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Montre-moi comment procéder absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette injustice me met en colère vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "En appliquant ce théorème, on obtient effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Comment vois-vous les choses ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette solution est moins efficace que l'alternative absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Montre-moi comment procéder vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Prépare la présentation pour jeudi certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "La température est de 17 degrés",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Analysons les points faibles de cette théorie absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Serais-tu d'accord pour  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Comment juges-vous cette sivousation ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Yo ! Je suis le pote de Sophie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Bon après-midi, je m'appelle Valérie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette mesure produit l'effet escompté",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Envoie-moi le rapport demain matin certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Comment définir le bonheur  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Salut, je m'appelle Marie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Je suis fou amoureux de cette idée",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Python est un langage de programmation vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "L'induction nous permet de conclure que vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Qu'est-ce qui nous motive vraiment  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Les rétroactions dans ce système provoquent",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette révélation me surprend énormément vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Si A implique B, alors non-B implique non-A effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Hello ! Moi c'est Sarah, ravie de vous voir",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Prépare la présentation pour jeudi absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Le rapport contient 56 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Il pleut depuis ce matin absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "L'analyse systémique montre l'interdépendance effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le budget alloué s'élève à 40 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le syllogisme se structure de la manière suivante absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Yo ! Je suis le pote de Sarah",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le taux d'inflation atteint 3% effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "La température est de 25 degrés",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Quel est ton avis sur cette question  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Je déborde de joie en voyant ça vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette méthode fonctionne correctement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Je suis vraiment content de ce résultat absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Comparativement, cette méthode montre des limites absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette étude manque de rigueur scientifique",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Bonsoir ! Je m'appelle Emma, enchantée !",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le rapport contient 41 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Tu veux dire quoi exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "En appliquant ce théorème, on obtient",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Hey ! Je m'appelle Pierre, enchantée !",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Dans quel sens l'entends-tu  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette réussite me ravit énormément vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette stratégie néglige des aspects cruciaux vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Je suis fou amoureux de cette idée certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette situation m'inquiète beaucoup",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Qui est responsable de ce projet  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Hey, moi c'est Sophie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Auriez-vous l'amabilité de m'expliquer ? vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Teste cette nouvelle fonctionnalité vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "L'analyse révèle des points importants absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Quelle est notre raison d'être  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Salut à tous, nous sommes l'équipe de marketing",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Les données indiquent une tendance positive",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "De quelle manière déboguer ce problème ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Ravi de vous rencontrer, je me nomme la directrice",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette procédure respecte les normes vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "On peut établir un lien logique entre effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Coucou, je me présente : Thomas",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le rapport contient 50 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Les données convergent vers cette conclusion absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Je déborde de joie en voyant ça effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Python est un langage de programmation certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Les résultats montrent une amélioration certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Par récurrence, on peut démontrer que",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le contrat expire le mois prochain vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Rebonjour, je suis passé ce matin mais vous n'étiez pas là",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Coucou ! Je suis la copine de Lisa",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "L'échantillon utilisé n'est pas représentatif certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette théorie explique de manière cohérente absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "J'ai peur que ça ne marche pas effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette procédure respecte les normes certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Aide-moi à comprendre ce concept absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Coucou, je suis le responsable du projet",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Combien de temps cela prendra-t-il ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Coucou, moi c'est Alex et toi ?",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette approche présente des failles absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Auriez-vous l'amabilité de m'expliquer ? effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Comment fonctionne ce mécanisme ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Il existe une relation de causalité entre vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Penses-vous que c'est possible ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Le rapport contient 50 pages effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "La température est de 20 degrés vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "La réunion commence à 14h30 vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Par déduction, nous arrivons à",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette approche présente des failles effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Il existe une relation de causalité entre effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Coucou, je me nomme la baby-sitter des enfants",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Re-salut ! C'est encore moi, David",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette argumentation présente une faille logique absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Que dire de plus  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Je suis fier de notre accomplissement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Auriez-vous l'amabilité de m'expliquer ? certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Le budget alloué s'élève à 49 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Je suis fier de notre accomplissement vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Que penses-vous de cette approche ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "J'ai peur que ça ne marche pas",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Salut, je représente l'entreprise Dupont",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Il faut examiner cette méthode plus attentivement absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette entreprise existe depuis 1995 absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le rapport contient 45 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Quelles sont les étapes à suivre ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "On peut établir un lien logique entre",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Corrige cette erreur rapidement vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette démonstration contient des erreurs absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Pourrais-tu m'expliquer la méthode ?",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette solution est moins efficace que l'alternative effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Prépare la présentation pour jeudi vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Il pleut depuis ce matin",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Les données convergent vers cette conclusion effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette technique donne des résultats probants vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Ce code manque d'optimisation et de clarté vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Hello, je suis le responsable du projet",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Hello, je suis invité par Catherine",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Rebonjour, je me nomme passé ce matin mais vous n'étiez pas là",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Dans ce système, chaque élément interagit avec certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Re-salut ! C'est encore moi, Marc",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Coucou, je représente l'entreprise Dupont",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Je suis vraiment content de ce résultat vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Les preuves empiriques soutiennent l'idée que certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Corrige cette erreur rapidement absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "En appliquant ce théorème, on obtient vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Qu'est-ce que tu penses de ça ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "L'analyse révèle des points importants certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Déploie cette version en staging",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Peux-tu préciser ta pensée ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cet effet résulte directement de cette cause absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Veux-tu bien faire cette tâche ? absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Quelle est ta définition de  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Il convient de remettre en cause ce postulat effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Je garde confiance en notre capacité",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Quel est ton sentiment sur ce point ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cela m'exaspère au plus haut point",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "N'est-ce pas évident  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Coucou, je m'appelle ta nouvelle collègue",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le budget alloué s'élève à 52 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "N'est-ce pas évident ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Comparativement, cette méthode montre des limites certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Quel est ton sentiment sur ce point  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Vérifie ces calculs s'il te plaît effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Les résultats montrent une amélioration",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le train part de la voie 3",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Analysons cette proposition étape par étape",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Quels outils faut-il utiliser  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Si A implique B, alors non-B implique non-A",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Coucou, je me nomme ta nouvelle collègue",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Yo ! Je suis le pote de Léa",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Pour quelle raison cette méthode ne fonctionne pas ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Veux-tu bien m'expliquer  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Par déduction, nous arrivons à certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Quelle est ta position là-dessus  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Dans ce système, chaque élément interagit avec vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette argumentation présente une faille logique vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette hypothèse mérite d'être testée car vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cet effet résulte directement de cette cause effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Hello, je viens d'emménager dans le quartier",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Que tu penses de ça ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "De quelle manière procède-t-on concrètement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Lance l'analyse sur ce dataset absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Hey ! Je m'appelle David, enchantée !",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette réussite me ravit énormément absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "J'ai peur que ça ne marche pas certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Le nouveau système est opérationnel vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Envoie-moi le rapport demain matin effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Quelle est notre raison d'être ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Configure ce serveur pour la production vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Salut, moi c'est Sophie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Je suis angoissé par cette perspective certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette loi est entrée en vigueur hier effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Sais-vous comment faire ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Déploie cette version en staging vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Pourriez-vous bien vouloir m'assister ? vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette prémisse majeure combinée à cette prémisse mineure vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette version corrige les bugs précédents",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Ce code manque d'optimisation et de clarté certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Le rapport contient 54 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Comparativement, cette méthode montre des limites",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Ce plan présente des risques sous-estimés certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Je me permets de me présenter, je suis votre nouveau voisin",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Pourriez-vous bien vouloir m'assister ? certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Bonjour Madame, je suis ravi de faire votre connaissance",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le raisonnement par l'absurde montre que vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette architecture logicielle présente des vulnérabilités effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Sais-tu comment faire ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "La cause première de ce phénomène est absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette méthodologie présente des biais évidents",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Je suis vraiment content de ce résultat effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Permettez-moi de me présenter : Docteur Martin certainement",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette conclusion découle logiquement des prémisses effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Je garde confiance en notre capacité vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Peux-vous préciser ta pensée ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Je suis déçu par ces résultats absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Le budget alloué s'élève à 59 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette conclusion me semble discutable",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Quelles sont les étapes à suivre  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Quels outils faut-il utiliser ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Veux-tu bien m'expliquer ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette mesure produit l'effet escompté vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Par déduction, nous arrivons à effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette loi est entrée en vigueur hier",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Qui peut nous aider dans cette tâche ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette prémisse majeure combinée à cette prémisse mineure",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette loi est entrée en vigueur hier absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "L'échantillon utilisé n'est pas représentatif absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Quel est le sens de tout ça ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Par récurrence, on peut démontrer que certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Seriez-vous en mesure de m'orienter ?",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Comment aurions-nous pu savoir  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Bonsoir ! Moi c'est Sarah, ravie de vous voir",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Rebonjour, je m'appelle passé ce matin mais vous n'étiez pas là",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Finalise ce projet avant vendredi certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cela m'exaspère au plus haut point absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Les preuves empiriques soutiennent l'idée que absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette version corrige les bugs précédents absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Je suis vraiment content de ce résultat",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Les rétroactions dans ce système provoquent effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette conclusion me semble discutable certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Yo ! Je suis le pote de Emma",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le budget alloué s'élève à 58 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le rapport contient 55 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Salut, je viens d'emménager dans le quartier",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Pour quelle raison sommes-nous ici ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "De quelle manière interpréter cette phrase ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "La température est de 22 degrés",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Les données indiquent une tendance positive vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le budget alloué s'élève à 45 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cela me rend triste de voir ça certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette version corrige les bugs précédents vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Comment optimiser cette performance ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Bonne matinée ! Je me présente : Sophie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Les rétroactions dans ce système provoquent vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette vision globale met en évidence effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Bon après-midi, moi c'est Lucas",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le syllogisme se structure de la manière suivante effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Bonjour les filles ! C'est nous, les cousines de Nice",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Pourquoi sommes-nous ici ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Les preuves empiriques soutiennent l'idée que",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Bonsoir, moi c'est Marc",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Peux-tu déboguer ce code ? vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Salut les amis, je me présente : Antoinen",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Permettez-moi de me présenter : Docteur Martin",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le rapport contient 42 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette méthodologie présente des biais évidents effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Coucou Monsieur, permettez-moi de me présenter",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Bonjour, on m'a dit de venir vous voir",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette réussite me ravit énormément certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette approche s'avère performante",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le rapport contient 57 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette propriété mathématique implique que certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Comment fonctionne ce mécanisme  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Comment déboguer ce problème  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette technique donne des résultats probants",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le rapport contient 51 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Pourquoi cette méthode ne fonctionne pas  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette corrélation suggère une relation causale effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le nouveau système est opérationnel effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette démonstration contient des erreurs certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "J'ai peur que ça ne marche pas absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette conclusion découle logiquement des prémisses",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cela me rend triste de voir ça",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "De quelle manière aurions-nous pu savoir ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Le rapport contient 50 pages certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette information figure page 25 certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette théorie explique de manière cohérente vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le budget alloué s'élève à 51 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Quelle est ta définition de ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Si A implique B, alors non-B implique non-A absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Je suis vraiment content de ce résultat certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Le budget alloué s'élève à 50 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Permettez-moi de me présenter : Docteur Martin effectivement",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cela me remplit de bonheur absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Veux-tu bien faire cette tâche ? certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Déploie cette version en staging effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Je suis déçu par ces résultats certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Est-ce que tu comprends  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Sais-tu comment faire  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette théorie explique de manière cohérente certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Coucou Madame, je suis ravi de faire votre connaissance",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette solution est moins efficace que l'alternative certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette technique donne des résultats probants certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Optimise cette requête SQL absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Par récurrence, on peut démontrer que vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Comment juges-tu cette situation ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Salut, je suis Jean",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Qu'est-ce qui nous motive vraiment ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette stratégie néglige des aspects cruciaux certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "J'espère sincèrement que ça marchera effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Le contrat expire le mois prochain",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Corrige cette erreur rapidement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "De quelle manière vois-tu les choses ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Par récurrence, on peut démontrer que absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "L'expérience confirme notre hypothèse vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Je suis stupéfait par cette nouvelle vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette situation me chagrine profondément",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette architecture logicielle présente des vulnérabilités certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Ce plan présente des risques sous-estimés vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Envoie-moi le rapport demain matin vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "La réunion commence à 14h30 certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Salut tout le monde, je suis le nouveau",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Salut ! Moi c'est Sarah, ravie de vous voir",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le rapport contient 43 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le taux d'inflation atteint 3% absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Bonjour, moi c'est Sophie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Vérifie ces calculs s'il te plaît certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "L'expérience confirme notre hypothèse",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Que peut-on y faire  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Hey, je suis le responsable du projet",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Où doit-on commencer  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Quelle est ta position là-dessus ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Bonsoir, moi c'est Sophie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette révélation me surprend énormément effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "De quelle manière optimiser cette performance ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Le rapport contient 58 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Que signifie cette expression  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Le contrat expire le mois prochain absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le budget alloué s'élève à 47 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette situation me chagrine profondément absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "La température est de 18 degrés",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette information figure page 25 effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Hello Monsieur, permettez-moi de me présenter",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Que signifie être libre  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Comment vois-tu les choses  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Corrige cette erreur rapidement effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "À partir de ces observations, on peut déduire que absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Fais-moi un résumé de ce document effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Qui peut nous aider dans cette tâche  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "L'échantillon utilisé n'est pas représentatif",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Hey, moi c'est Alex et toi ?",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Bonsoir, je m'appelle Sophie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Ces exemples particuliers nous mènent à la règle générale vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "La température est de 24 degrés",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Quand aura lieu la réunion ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Salut, on m'a dit de venir vous voir",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Les données indiquent une tendance positive absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Seriez-vous en mesure de m'orienter ? vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette équation se résout par élimination absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette approche holistique révèle que vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Quand aura lieu la réunion  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Yo ! Je suis le pote de Marc",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Bonsoir, moi c'est Lucas",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cela me remplit de bonheur effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Le train part de la voie 3 vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette méthodologie présente des biais évidents certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Les rétroactions dans ce système provoquent certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Prépare la présentation pour jeudi effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cela me rend triste de voir ça effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette loi générale s'applique à ce cas particulier",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "L'enchaînement logique suit cette progression vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Pourrais-tu m'expliquer la méthode ? vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette hypothèse mérite d'être questionnée certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Bon après-midi, moi c'est Valérie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Je suis furieux de cette décision vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Le budget alloué s'élève à 55 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Hello, je suis la baby-sitter des enfants",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Il faut examiner cette méthode plus attentivement vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Salut, moi c'est Alex et toi ?",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le budget alloué s'élève à 42 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le projet sera terminé demain",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Coucou, moi c'est la baby-sitter des enfants",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Comment résoudre ce problème ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "La cause première de ce phénomène est",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Que peut-on y faire ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette situation m'inquiète beaucoup certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette technique donne des résultats probants effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette entreprise existe depuis 1995",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le rapport contient 60 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "J'espère sincèrement que ça marchera absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Veux-tu bien faire cette tâche ?",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Bonjour Monsieur, permettez-moi de me présenter",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Re-salut ! C'est encore moi, Marie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Hello everyone ! Nous représentons l'association",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette hypothèse mérite d'être testée car",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Les résultats montrent une amélioration absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Bonjour, je suis votre nouveau professeur",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Quel est le sens de tout ça  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette conclusion découle logiquement des prémisses absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Finalise ce projet avant vendredi effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Je suis fier de notre accomplissement absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette stratégie néglige des aspects cruciaux",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "J'adore cette nouvelle approche effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Veux-tu bien faire cette tâche ? effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Auriez-vous l'amabilité de m'expliquer ? absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Quel est ton avis sur cette question ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Comparativement, cette méthode montre des limites vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette méthode fonctionne parfaitement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Bonsoir, moi c'est invité par Catherine",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Lance l'analyse sur ce dataset",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "L'échantillon utilisé n'est pas représentatif effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Fais-moi un résumé de ce document certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Ravi de vous rencontrer, je m'appelle la directrice",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette mesure produit l'effet escompté effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "J'espère sincèrement que ça marchera certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Pourriez-vous bien vouloir m'assister ?",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Coucou tout le monde ! Moi c'est Léa",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette conséquence découle naturellement de vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Vérifie ces calculs s'il te plaît absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Fais-moi un résumé de ce document vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "La température est de 16 degrés",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette situation m'inquiète beaucoup absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Coucou tout le monde ! Moi c'est Marie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette démonstration contient des erreurs vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Quelle est la cause de cette panne  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Le budget alloué s'élève à 57 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Analysons les points faibles de cette théorie effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Ce plan présente des risques sous-estimés",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Je suis furieux de cette décision",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette hypothèse mérite d'être questionnée effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Est-ce que tu comprends ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Envoie-moi le rapport demain matin",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "À partir de ces observations, on peut déduire que",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette corrélation suggère une relation causale",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette révélation me surprend énormément certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette conclusion découle logiquement des prémisses certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "De quelle manière définir le bonheur ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Le rapport contient 52 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Je garde confiance en notre capacité effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Bonjour, moi c'est le responsable du projet",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Pourrais-tu m'expliquer la méthode ? absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette étude manque de rigueur scientifique certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Pourrais-vous me dire pourquoi ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Je suis furieux de cette décision absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette hypothèse mérite d'être testée car absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le projet sera terminé bientôt",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette déduction est cohérente avec les faits certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Salut tout le monde, je me nomme le nouveau",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Bonjour, je suis le responsable du projet",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Analysons cette proposition étape par étape certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Hey, on m'a dit de venir vous voir",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Comment optimiser cette performance  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette réussite me ravit énormément effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette démonstration repose sur ces axiomes absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette fonction vérifie les conditions suivantes",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Comparativement, cette méthode montre des limites effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette situation me chagrine profondément effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Bonsoir Madame, je me nomme ravi de faire votre connaissance",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette conclusion me semble discutable absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette argumentation présente une faille logique effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette architecture logicielle présente des vulnérabilités",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Pourquoi ce code ne s'exécute pas ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "La cause première de ce phénomène est effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette conséquence découle naturellement de absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "L'échantillon utilisé n'est pas représentatif vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette hypothèse mérite d'être testée car effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette situation me chagrine profondément certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "J'espère sincèrement que ça marchera vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Bonne matinée ! Je me présente : Lisa",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Comment procède-t-on concrètement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Le rapport contient 48 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Hello, je me nomme stagiaire ici pour deux mois",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Bonsoir tout le monde ! Moi c'est Léa",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Salut, je suis invité par Catherine",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Finalise ce projet avant vendredi",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Hey, je suis ta nouvelle collègue",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le rapport contient 46 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Optimise cette requête SQL effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cela me remplit de bonheur",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Comment déboguer ce problème ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "L'induction nous permet de conclure que certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le budget alloué s'élève à 56 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Pourquoi ce code ne s'exécute pas  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Bonsoir, je me nomme Sophie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette loi générale s'applique à ce cas particulier absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette équation se résout par élimination vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Je suis angoissé par cette perspective effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Dans ce système, chaque élément interagit avec absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le contrat expire le mois prochain certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Qui aurait pu prévoir ça ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Salut, moi c'est Paul",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le train part de la voie 3 absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette loi générale s'applique à ce cas particulier certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Je suis angoissé par cette perspective vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Je déborde de joie en voyant ça",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "L'expérience confirme notre hypothèse effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Il existe une relation de causalité entre certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette mesure produit l'effet escompté certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "J'adore cette nouvelle approche",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Penses-tu que c'est possible  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cela me rend triste de voir ça vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Veux-vous bien m'expliquer ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Hello, je me présente : Lisa",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette propriété mathématique implique que",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Je suis stupéfait par cette nouvelle",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Ce code manque d'optimisation et de clarté absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Corrige cette erreur rapidement certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Pourrais-tu m'expliquer la méthode ? effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Je garde confiance en notre capacité certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette démonstration repose sur ces axiomes certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette injustice me met en colère",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "L'analyse révèle des points importants effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Peux-tu déboguer ce code ?",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette prémisse majeure combinée à cette prémisse mineure effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette version corrige les bugs précédents effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Salut tout le monde, moi c'est le nouveau",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "La réunion commence à 14h30 absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette argumentation présente une faille logique",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Que penses-tu de cette approche  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Les données convergent vers cette conclusion certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Par récurrence, on peut démontrer que effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "La température est de 23 degrés",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Comment juges-tu cette situation  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Le nouveau système est opérationnel absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Hey, je suis Paul",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Dans quel sens l'entends-vous ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Coucou les filles ! C'est nous, les cousines de Nice",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Seriez-vous en mesure de m'orienter ? absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Le budget alloué s'élève à 46 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Il existe une relation de causalité entre",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Teste cette nouvelle fonctionnalité",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette fonction vérifie les conditions suivantes certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "L'enchaînement logique suit cette progression certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Dans ce système, chaque élément interagit avec",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Je me permets de me présenter, je m'appelle votre nouveau voisin",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Je suis déçu par ces résultats vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Ce plan présente des risques sous-estimés absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Peux-tu m'aider à résoudre ceci ? absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "La réunion commence à 14h30",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Ce code manque d'optimisation et de clarté",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette information figure page 25",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Peux-tu déboguer ce code ? absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette solution est moins efficace que l'alternative",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Les données convergent vers cette conclusion",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Peux-tu m'aider à résoudre ceci ?",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Bonsoir Madame, je suis ravi de faire votre connaissance",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Vérifie ces calculs s'il te plaît vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "L'induction nous permet de conclure que effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Permettez-moi de me présenter : Docteur Martin absolument",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Hey, je suis votre nouveau professeur",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "La température est de 15 degrés",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Bonjour à tous, je me nomme Marc",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Bonjour, je suis ta nouvelle collègue",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette approche présente des failles",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette situation m'inquiète beaucoup effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "L'expérience confirme notre hypothèse certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette entreprise existe depuis 1995 effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Je suis déçu par ces résultats effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "De quelle manière juges-tu cette situation ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Hello les amis, je me présente : Julien",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Peux-tu déboguer ce code ? certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Qu'est-ce que tu penses de ça  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Serais-tu d'accord pour ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Il convient de remettre en cause ce postulat vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette argumentation présente une faille logique certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le budget alloué s'élève à 44 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le rapport contient 59 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette étude manque de rigueur scientifique absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Comment procède-t-on concrètement  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "De quelle manière fonctionne ce mécanisme ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Pourquoi cette méthode ne fonctionne pas ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Il faut examiner cette méthode plus attentivement effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Le syllogisme se structure de la manière suivante vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette méthodologie présente des biais évidents vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette hypothèse mérite d'être questionnée vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette approche présente des failles certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Où trouver plus d'informations ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Montre-moi comment procéder",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette situation m'inquiète beaucoup vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Seriez-vous en mesure de m'orienter ? certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Les résultats montrent une amélioration effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Enchanté, je me nomme Emma-Claude Durand",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "J'ai peur que ça ne marche pas vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Les preuves empiriques soutiennent l'idée que effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Bonjour ! Je suis la copine de Lisa",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Configure ce serveur pour la production absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette conséquence découle naturellement de effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Que dire de plus ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette hypothèse mérite d'être testée car certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Bonjour, je viens d'emménager dans le quartier",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Coucou, moi c'est Sophie",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Bonsoir, je suis invité par Catherine",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Aide-moi à comprendre ce concept",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Configure ce serveur pour la production effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette approche holistique révèle que absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Je suis angoissé par cette perspective",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "L'analyse systémique montre l'interdépendance vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette corrélation suggère une relation causale certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Bonsoir, moi c'est Jean",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Est-ce que vous comprends ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Bonsoir Madame, moi c'est ravi de faire votre connaissance",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Je suis furieux de cette décision certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette injustice me met en colère absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Permettez-moi de me présenter : Docteur Martin vraiment",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Veux-tu bien faire cette tâche ? vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Le taux d'inflation atteint 3% certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette approche présente des failles vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Quelle méthode est la plus efficace  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Le raisonnement par l'absurde montre que certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le budget alloué s'élève à 41 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Coucou, je suis ta nouvelle collègue",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Ces exemples particuliers nous mènent à la règle générale absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette fonction vérifie les conditions suivantes effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Je déborde de joie en voyant ça absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Je garde confiance en notre capacité absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Que signifie cette expression ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Bonsoir Monsieur, permettez-moi de me présenter",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette conclusion me semble discutable effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Ces exemples particuliers nous mènent à la règle générale",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cela m'exaspère au plus haut point vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Que penses-tu de cette approche ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cela me remplit de bonheur certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette solution est moins efficace que l'alternative vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette propriété mathématique implique que vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le taux d'inflation atteint 3% vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Auriez-vous l'amabilité de m'expliquer ?",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Le train part de la voie 3 certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Je suis furieux de cette décision effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Le rapport contient 50 pages absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le budget alloué s'élève à 60 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Bonsoir, je suis le responsable du projet",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Je suis fier de notre accomplissement certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Bonne matinée ! Je me présente : Léa",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Par déduction, nous arrivons à absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Qui est responsable de ce projet ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette équation se résout par élimination",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Comment vois-tu les choses ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "À partir de ces observations, on peut déduire que effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Enchanté, je me nomme Jean-Claude Durand",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Hey, je viens d'emménager dans le quartier",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Je suis fou amoureux de cette idée absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Lance l'analyse sur ce dataset vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Seriez-vous en mesure de m'orienter ? effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Envoie-moi le rapport demain matin absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Que signifie être libre ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Je suis déçu par ces résultats",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette vision globale met en évidence vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette vision globale met en évidence certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Coucou la compagnie ! On est les nouveaux",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette loi générale s'applique à ce cas particulier effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le taux d'inflation atteint 3%",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Salut la compagnie ! On est les nouveaux",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Hey tout le monde ! Moi c'est Léa",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette conséquence découle naturellement de",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette conséquence découle naturellement de certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Aide-moi à comprendre ce concept effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Hey ! Je m'appelle Emma, enchantée !",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Je suis stupéfait par cette nouvelle certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Hey ! Je m'appelle Paul, enchantée !",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Lance l'analyse sur ce dataset certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "L'analyse révèle des points importants",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "La réunion commence à 14h30 effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette démonstration contient des erreurs effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Comment interpréter cette phrase ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Pourrais-tu me dire pourquoi  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette injustice me met en colère effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Je suis stupéfait par cette nouvelle effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Qu'est-ce que vous penses de ça ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Le nouveau système est opérationnel certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Salut, je suis Paul",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette information figure page 25 absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Hello, je me présente : Thomas",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette corrélation suggère une relation causale absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "N'est-ce pas formidable ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "J'adore cette nouvelle approche certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "De quelle manière résoudre ce problème ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Dans quel sens l'entends-tu ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Bonjour à tous, je me nomme Thomas",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette méthodologie présente des biais évidents absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "L'analyse systémique montre l'interdépendance absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le rapport contient 47 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Coucou, je suis la baby-sitter des enfants",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette technique donne des résultats probants absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "J'espère sincèrement que ça marchera",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Salut ! Je suis la copine de Lisa",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Bonsoir ! Je suis la copine de Lisa",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "L'induction nous permet de conclure que",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Teste cette nouvelle fonctionnalité certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Coucou, je suis stagiaire ici pour deux mois",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Il existe une relation de causalité entre absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Optimise cette requête SQL",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette étude manque de rigueur scientifique vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Bonne matinée ! Je me présente : Jean",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Fais-moi un résumé de ce document",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Bonjour, moi c'est Alex et toi ?",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Ces exemples particuliers nous mènent à la règle générale certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le budget alloué s'élève à 54 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Optimise cette requête SQL certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Je suis fou amoureux de cette idée vraiment",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Les résultats montrent une amélioration vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Analysons cette proposition étape par étape vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Coucou, je viens d'emménager dans le quartier",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Aide-moi à comprendre ce concept certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Penses-tu que c'est possible ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "L'enchaînement logique suit cette progression absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "La température est de 21 degrés",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Il convient de remettre en cause ce postulat absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Comment interpréter cette phrase  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Il convient de remettre en cause ce postulat",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Coucou à tous, nous sommes l'équipe de marketing",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "À partir de ces observations, on peut déduire que vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Peux-tu déboguer ce code ? effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Le budget alloué s'élève à 53 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette théorie explique de manière cohérente effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette procédure respecte les normes",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Pourquoi sommes-nous ici  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Cette approche holistique révèle que",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette injustice me met en colère certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Si A implique B, alors non-B implique non-A certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Vérifie ces calculs s'il te plaît",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette mesure produit l'effet escompté absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Hello, je suis stagiaire ici pour deux mois",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Hello à tous, je me nomme Pierre",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Finalise ce projet avant vendredi absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette procédure respecte les normes absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Analysons les points faibles de cette théorie vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Pour quelle raison ce code ne s'exécute pas ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Pourriez-vous bien vouloir m'assister ? effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette démonstration repose sur ces axiomes vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Ces exemples particuliers nous mènent à la règle générale effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le rapport contient 40 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cela m'exaspère au plus haut point certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Fais-moi un résumé de ce document absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Finalise ce projet avant vendredi vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Il faut examiner cette méthode plus attentivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Le rapport contient 53 pages",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cet effet résulte directement de cette cause",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Je me permets de me présenter, je me nomme votre nouveau voisin",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le raisonnement par l'absurde montre que",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Bonjour, je représente l'entreprise Dupont",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Cette information figure page 25 vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette révélation me surprend énormément",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette réussite me ravit énormément",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "L'expérience confirme notre hypothèse absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Pourrais-tu me dire pourquoi ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Bonsoir à tous, nous sommes l'équipe de marketing",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Teste cette nouvelle fonctionnalité effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Teste cette nouvelle fonctionnalité absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Il convient de remettre en cause ce postulat certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Coucou tout le monde ! Moi c'est Thomas",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Le syllogisme se structure de la manière suivante certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Python est un langage de programmation absolument",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Ce code manque d'optimisation et de clarté effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Je déborde de joie en voyant ça certainement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette version corrige les bugs précédents certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette étude manque de rigueur scientifique effectivement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Cette déduction est cohérente avec les faits",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Pourrais-tu m'expliquer la méthode ? certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette conclusion me semble discutable vraiment",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Quelle est la cause de cette panne ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Lance l'analyse sur ce dataset effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Il faut examiner cette méthode plus attentivement certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Peux-tu m'aider à résoudre ceci ? effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Optimise cette requête SQL vraiment",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "En appliquant ce théorème, on obtient certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Combien de temps cela prendra-t-il  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Il pleut depuis ce matin vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Montre-moi comment procéder effectivement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "En appliquant ce théorème, on obtient absolument",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Comment aurions-nous pu savoir ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Montre-moi comment procéder certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Le budget alloué s'élève à 43 000 euros",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette hypothèse mérite d'être questionnée absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Hey, je suis invité par Catherine",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Bonjour à tous, nous sommes l'équipe de marketing",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "On peut établir un lien logique entre certainement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Je suis angoissé par cette perspective absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Pourriez-vous bien vouloir m'assister ? absolument",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Bonne matinée ! Je me présente : Antoine",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "N'est-ce pas formidable  exactement ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "Je suis fier de notre accomplissement effectivement",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette architecture logicielle présente des vulnérabilités absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "J'adore cette nouvelle approche absolument",
+    "label": 5,
+    "concept": "expression_emotion"
+  },
+  {
+    "text": "Cette loi est entrée en vigueur hier certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette fonction vérifie les conditions suivantes vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette théorie explique de manière cohérente",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette démonstration repose sur ces axiomes effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Coucou les amis, je me présente : Julien",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Déploie cette version en staging certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette procédure respecte les normes effectivement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Le nouveau système est opérationnel",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Cette corrélation suggère une relation causale vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Peux-tu m'aider à résoudre ceci ? certainement",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette propriété mathématique implique que effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Le syllogisme se structure de la manière suivante",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette entreprise existe depuis 1995 vraiment",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Hey, je me présente : Thomas",
+    "label": 0,
+    "concept": "salutation_presentation"
+  },
+  {
+    "text": "Les données convergent vers cette conclusion vraiment",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette entreprise existe depuis 1995 certainement",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Analysons les points faibles de cette théorie certainement",
+    "label": 6,
+    "concept": "analyse_critique"
+  },
+  {
+    "text": "Serais-vous d'accord pour ?",
+    "label": 1,
+    "concept": "questionnement_interrogation"
+  },
+  {
+    "text": "La température est de 20 degrés",
+    "label": 3,
+    "concept": "affirmation_factuelle"
+  },
+  {
+    "text": "Configure ce serveur pour la production",
+    "label": 4,
+    "concept": "demande_action"
+  },
+  {
+    "text": "Cette équation se résout par élimination effectivement",
+    "label": 2,
+    "concept": "raisonnement_logique"
+  },
+  {
+    "text": "Cette stratégie néglige des aspects cruciaux absolument",
+    "label": 6,
+    "concept": "analyse_critique"
+  }
+]

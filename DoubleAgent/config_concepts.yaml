@@ -4,13 +4,13 @@ model:
   num_labels: 7  # Nombre de concepts différents
 
 training:
-  output_dir: "./camembert-finetuned-concepts"
+  output_dir: "./finetuned/camembert-finetuned-concepts"
   num_train_epochs: 10  # Plus d'époques pour plus de nuances
   per_device_train_batch_size: 16
   per_device_eval_batch_size: 64
   warmup_steps: 500
   weight_decay: 0.01
-  logging_dir: "./logs-concepts"
+  logging_dir: "./logs/logs-concepts"
   logging_steps: 50
   eval_strategy: "steps"
   eval_steps: 300

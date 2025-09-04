@@ -1,0 +1,1304 @@
+[
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Félix est un chat, que peut-on dire de Félix ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Félix est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Félix = chat), alors (Félix → mammifère)\nÉtape 3: Formuler la conclusion\n- Félix est un mammifère\nRÉPONSE: Félix est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Félix est un chat, que peut-on dire de Félix ?",
+    "reponse_seule": "Félix est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Grace est un chat, que peut-on dire de Grace ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Grace est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Grace = chat), alors (Grace → mammifère)\nÉtape 3: Formuler la conclusion\n- Grace est un mammifère\nRÉPONSE: Grace est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Grace est un chat, que peut-on dire de Grace ?",
+    "reponse_seule": "Grace est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Eve est un chat, que peut-on dire de Eve ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Eve est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Eve = chat), alors (Eve → mammifère)\nÉtape 3: Formuler la conclusion\n- Eve est un mammifère\nRÉPONSE: Eve est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Eve est un chat, que peut-on dire de Eve ?",
+    "reponse_seule": "Eve est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Bob est un chat, que peut-on dire de Bob ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Bob est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Bob = chat), alors (Bob → mammifère)\nÉtape 3: Formuler la conclusion\n- Bob est un mammifère\nRÉPONSE: Bob est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Bob est un chat, que peut-on dire de Bob ?",
+    "reponse_seule": "Bob est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Grace est un chat, que peut-on dire de Grace ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Grace est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Grace = chat), alors (Grace → mammifère)\nÉtape 3: Formuler la conclusion\n- Grace est un mammifère\nRÉPONSE: Grace est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Grace est un chat, que peut-on dire de Grace ?",
+    "reponse_seule": "Grace est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Diana est un chat, que peut-on dire de Diana ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Diana est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Diana = chat), alors (Diana → mammifère)\nÉtape 3: Formuler la conclusion\n- Diana est un mammifère\nRÉPONSE: Diana est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Diana est un chat, que peut-on dire de Diana ?",
+    "reponse_seule": "Diana est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Hugo est un chat, que peut-on dire de Hugo ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Hugo est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Hugo = chat), alors (Hugo → mammifère)\nÉtape 3: Formuler la conclusion\n- Hugo est un mammifère\nRÉPONSE: Hugo est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Hugo est un chat, que peut-on dire de Hugo ?",
+    "reponse_seule": "Hugo est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Hugo est un chat, que peut-on dire de Hugo ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Hugo est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Hugo = chat), alors (Hugo → mammifère)\nÉtape 3: Formuler la conclusion\n- Hugo est un mammifère\nRÉPONSE: Hugo est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Hugo est un chat, que peut-on dire de Hugo ?",
+    "reponse_seule": "Hugo est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Grace est un chat, que peut-on dire de Grace ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Grace est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Grace = chat), alors (Grace → mammifère)\nÉtape 3: Formuler la conclusion\n- Grace est un mammifère\nRÉPONSE: Grace est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Grace est un chat, que peut-on dire de Grace ?",
+    "reponse_seule": "Grace est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Alice est un chat, que peut-on dire de Alice ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Alice est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Alice = chat), alors (Alice → mammifère)\nÉtape 3: Formuler la conclusion\n- Alice est un mammifère\nRÉPONSE: Alice est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Alice est un chat, que peut-on dire de Alice ?",
+    "reponse_seule": "Alice est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Bob est un chat, que peut-on dire de Bob ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Bob est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Bob = chat), alors (Bob → mammifère)\nÉtape 3: Formuler la conclusion\n- Bob est un mammifère\nRÉPONSE: Bob est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Bob est un chat, que peut-on dire de Bob ?",
+    "reponse_seule": "Bob est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Frank est un chat, que peut-on dire de Frank ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Frank est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Frank = chat), alors (Frank → mammifère)\nÉtape 3: Formuler la conclusion\n- Frank est un mammifère\nRÉPONSE: Frank est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Frank est un chat, que peut-on dire de Frank ?",
+    "reponse_seule": "Frank est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Alice est un chat, que peut-on dire de Alice ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Alice est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Alice = chat), alors (Alice → mammifère)\nÉtape 3: Formuler la conclusion\n- Alice est un mammifère\nRÉPONSE: Alice est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Alice est un chat, que peut-on dire de Alice ?",
+    "reponse_seule": "Alice est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Frank est un chat, que peut-on dire de Frank ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Frank est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Frank = chat), alors (Frank → mammifère)\nÉtape 3: Formuler la conclusion\n- Frank est un mammifère\nRÉPONSE: Frank est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Frank est un chat, que peut-on dire de Frank ?",
+    "reponse_seule": "Frank est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Bob est un chat, que peut-on dire de Bob ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Bob est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Bob = chat), alors (Bob → mammifère)\nÉtape 3: Formuler la conclusion\n- Bob est un mammifère\nRÉPONSE: Bob est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Bob est un chat, que peut-on dire de Bob ?",
+    "reponse_seule": "Bob est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Eve est un chat, que peut-on dire de Eve ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Eve est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Eve = chat), alors (Eve → mammifère)\nÉtape 3: Formuler la conclusion\n- Eve est un mammifère\nRÉPONSE: Eve est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Eve est un chat, que peut-on dire de Eve ?",
+    "reponse_seule": "Eve est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Hugo est un chat, que peut-on dire de Hugo ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Hugo est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Hugo = chat), alors (Hugo → mammifère)\nÉtape 3: Formuler la conclusion\n- Hugo est un mammifère\nRÉPONSE: Hugo est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Hugo est un chat, que peut-on dire de Hugo ?",
+    "reponse_seule": "Hugo est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Bob est un chat, que peut-on dire de Bob ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Bob est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Bob = chat), alors (Bob → mammifère)\nÉtape 3: Formuler la conclusion\n- Bob est un mammifère\nRÉPONSE: Bob est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Bob est un chat, que peut-on dire de Bob ?",
+    "reponse_seule": "Bob est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Charlie est un chat, que peut-on dire de Charlie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Charlie est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Charlie = chat), alors (Charlie → mammifère)\nÉtape 3: Formuler la conclusion\n- Charlie est un mammifère\nRÉPONSE: Charlie est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Charlie est un chat, que peut-on dire de Charlie ?",
+    "reponse_seule": "Charlie est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Alice est un chat, que peut-on dire de Alice ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Alice est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Alice = chat), alors (Alice → mammifère)\nÉtape 3: Formuler la conclusion\n- Alice est un mammifère\nRÉPONSE: Alice est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Alice est un chat, que peut-on dire de Alice ?",
+    "reponse_seule": "Alice est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Bob est un chat, que peut-on dire de Bob ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Bob est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Bob = chat), alors (Bob → mammifère)\nÉtape 3: Formuler la conclusion\n- Bob est un mammifère\nRÉPONSE: Bob est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Bob est un chat, que peut-on dire de Bob ?",
+    "reponse_seule": "Bob est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Grace est un chat, que peut-on dire de Grace ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Grace est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Grace = chat), alors (Grace → mammifère)\nÉtape 3: Formuler la conclusion\n- Grace est un mammifère\nRÉPONSE: Grace est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Grace est un chat, que peut-on dire de Grace ?",
+    "reponse_seule": "Grace est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Alice est un chat, que peut-on dire de Alice ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Alice est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Alice = chat), alors (Alice → mammifère)\nÉtape 3: Formuler la conclusion\n- Alice est un mammifère\nRÉPONSE: Alice est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Alice est un chat, que peut-on dire de Alice ?",
+    "reponse_seule": "Alice est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Frank est un chat, que peut-on dire de Frank ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Frank est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Frank = chat), alors (Frank → mammifère)\nÉtape 3: Formuler la conclusion\n- Frank est un mammifère\nRÉPONSE: Frank est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Frank est un chat, que peut-on dire de Frank ?",
+    "reponse_seule": "Frank est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Hugo est un chat, que peut-on dire de Hugo ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Hugo est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Hugo = chat), alors (Hugo → mammifère)\nÉtape 3: Formuler la conclusion\n- Hugo est un mammifère\nRÉPONSE: Hugo est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Hugo est un chat, que peut-on dire de Hugo ?",
+    "reponse_seule": "Hugo est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Grace est un chat, que peut-on dire de Grace ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Grace est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Grace = chat), alors (Grace → mammifère)\nÉtape 3: Formuler la conclusion\n- Grace est un mammifère\nRÉPONSE: Grace est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Grace est un chat, que peut-on dire de Grace ?",
+    "reponse_seule": "Grace est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Diana est un chat, que peut-on dire de Diana ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Diana est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Diana = chat), alors (Diana → mammifère)\nÉtape 3: Formuler la conclusion\n- Diana est un mammifère\nRÉPONSE: Diana est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Diana est un chat, que peut-on dire de Diana ?",
+    "reponse_seule": "Diana est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Diana est un chat, que peut-on dire de Diana ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Diana est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Diana = chat), alors (Diana → mammifère)\nÉtape 3: Formuler la conclusion\n- Diana est un mammifère\nRÉPONSE: Diana est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Diana est un chat, que peut-on dire de Diana ?",
+    "reponse_seule": "Diana est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Bob est un chat, que peut-on dire de Bob ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Bob est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Bob = chat), alors (Bob → mammifère)\nÉtape 3: Formuler la conclusion\n- Bob est un mammifère\nRÉPONSE: Bob est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Bob est un chat, que peut-on dire de Bob ?",
+    "reponse_seule": "Bob est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Hugo est un chat, que peut-on dire de Hugo ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Hugo est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Hugo = chat), alors (Hugo → mammifère)\nÉtape 3: Formuler la conclusion\n- Hugo est un mammifère\nRÉPONSE: Hugo est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Hugo est un chat, que peut-on dire de Hugo ?",
+    "reponse_seule": "Hugo est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Si tous les chats sont des mammifères et Alice est un chat, que peut-on dire de Alice ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier les prémisses\n- Prémisse 1: Tous les chats sont des mammifères\n- Prémisse 2: Alice est un chat\nÉtape 2: Appliquer la règle de déduction (syllogisme)\n- Si A → B et C = A, alors C → B\n- Si (chat → mammifère) et (Alice = chat), alors (Alice → mammifère)\nÉtape 3: Formuler la conclusion\n- Alice est un mammifère\nRÉPONSE: Alice est un mammifère\nCRITIQUE: Cette déduction est valide car elle suit correctement la règle du syllogisme. Les prémisses sont cohérentes et la conclusion découle logiquement.",
+    "type": "syllogisme_simple",
+    "enigme_seule": "Si tous les chats sont des mammifères et Alice est un chat, que peut-on dire de Alice ?",
+    "reponse_seule": "Alice est un mammifère"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les prémisses\n- Si élève réussit → élève fait ses devoirs\n- Marie réussit\nÉtape 2: Appliquer modus ponens\n- Si P → Q et P, alors Q\n- Marie réussit → Marie fait ses devoirs\nÉtape 3: Conclure\n- Marie fait ses devoirs\nRÉPONSE: Marie fait ses devoirs\nCRITIQUE: Raisonnement valide par modus ponens. La règle logique est correctement appliquée.",
+    "type": "modus_ponens",
+    "enigme_seule": "Dans une classe, tous les élèves qui réussissent font leurs devoirs. Marie réussit. Que peut-on dire de Marie ?",
+    "reponse_seule": "Marie fait ses devoirs"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?\nRAISONNEMENT:",
+    "output": "Étape 1: Identifier la chaîne d'implications\n- A → B (si A alors B)\n- B → C (si B alors C)\n- A est vrai\nÉtape 2: Appliquer la transitivité\n- A → B et B → C impliquent A → C\n- Donc A → C\nÉtape 3: Appliquer modus ponens\n- A est vrai et A → C\n- Donc C est vrai\nRÉPONSE: C est vrai\nCRITIQUE: Raisonnement correct utilisant la transitivité des implications puis modus ponens.",
+    "type": "chaine_implications",
+    "enigme_seule": "Si A implique B, et B implique C, et A est vrai, que peut-on dire de C ?",
+    "reponse_seule": "C est vrai"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?\nRAISONNEMENT:",
+    "output": "Étape 1: Formaliser les contraintes\n- Alice > Bob (en âge)\n- Charlie < Bob (en âge)\nÉtape 2: Ordonner les relations\n- De Alice > Bob et Charlie < Bob\n- On obtient : Charlie < Bob < Alice\nÉtape 3: Identifier l'ordre complet\n- Alice est la plus âgée\n- Bob est au milieu\n- Charlie est le plus jeune\nRÉPONSE: Alice est la plus âgée\nCRITIQUE: Raisonnement correct par ordonnancement des relations. La transitivité des inégalités est bien appliquée.",
+    "type": "contraintes_ordre",
+    "enigme_seule": "Trois amis (Alice, Bob, Charlie) ont des âges différents. Alice est plus âgée que Bob. Charlie est plus jeune que Bob. Qui est le plus âgé ?",
+    "reponse_seule": "Alice est la plus âgée"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?\nRAISONNEMENT:",
+    "output": "Étape 1: Analyser les possibilités\n- Cas 1: Le barbier se rase lui-même\n- Cas 2: Le barbier ne se rase pas lui-même\nÉtape 2: Tester le Cas 1\n- Si le barbier se rase lui-même, alors il fait partie des hommes qui se rasent eux-mêmes\n- Mais la règle dit qu'il ne rase que ceux qui ne se rasent PAS eux-mêmes\n- Contradiction : il ne devrait pas se raser\nÉtape 3: Tester le Cas 2\n- Si le barbier ne se rase pas lui-même, alors il fait partie des hommes qui ne se rasent pas eux-mêmes\n- Donc selon la règle, le barbier doit le raser\n- Contradiction : cela signifie qu'il se rase lui-même\nÉtape 4: Conclusion\n- Cette situation est paradoxale (paradoxe du barbier de Russell)\nRÉPONSE: Cette situation est un paradoxe logique sans solution cohérente\nCRITIQUE: L'analyse révèle correctement le paradoxe. Les deux cas mènent à des contradictions, démontrant l'impossibilité logique de la situation.",
+    "type": "paradoxe",
+    "enigme_seule": "Un barbier rase tous les hommes qui ne se rasent pas eux-mêmes. Qui rase le barbier ?",
+    "reponse_seule": "Cette situation est un paradoxe logique sans solution cohérente"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  },
+  {
+    "input": "ÉNIGME: Si 2x + 3 = 11, quelle est la valeur de x ?\nRAISONNEMENT:",
+    "output": "Étape 1: Isoler le terme avec x\n- 2x + 3 = 11\n- Soustraire 3 des deux côtés : 2x = 11 - 3\n- 2x = 8\nÉtape 2: Résoudre pour x\n- Diviser par 2 : x = 8/2\n- x = 4\nÉtape 3: Vérification\n- Remplacer x par 4 dans l'équation originale\n- 2(4) + 3 = 8 + 3 = 11 ✓\nRÉPONSE: x = 4\nCRITIQUE: Résolution algébrique correcte avec vérification. Chaque étape respecte les règles mathématiques.",
+    "type": "equation_lineaire",
+    "enigme_seule": "Si 2x + 3 = 11, quelle est la valeur de x ?",
+    "reponse_seule": "x = 4"
+  }
+]
