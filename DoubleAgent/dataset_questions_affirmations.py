@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 from sklearn.model_selection import train_test_split
+import sys
 
 class DatasetCreator:
     """
@@ -135,7 +136,7 @@ class DatasetCreator:
         random.shuffle(dataset)
         return dataset
     
-    def sauvegarder_dataset(self, dataset, filename="dataset_questions_affirmations.json"):
+    def sauvegarder_dataset(self, dataset, filename="./datasets/dataset_questions_affirmations.json"):
         """
         Sauvegarde le dataset au format JSON
         """
@@ -152,5 +153,12 @@ class DatasetCreator:
 # Créer le dataset
 if __name__ == "__main__":
     creator = DatasetCreator()
-    dataset = creator.generer_dataset_augmente(3000)
+    taille = 3000
+    if len(sys.argv) > 1:
+        try:
+            taille = int(sys.argv[1])
+        except ValueError:
+            print("Usage: python dataset_creator.py [taille]")
+            sys.exit(1)    
+    dataset = creator.generer_dataset_augmente(taille)
     creator.sauvegarder_dataset(dataset)

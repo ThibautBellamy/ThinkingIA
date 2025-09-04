@@ -1,0 +1,38 @@
+# config_concepts.yaml
+model:
+  name: "camembert-base"
+  num_labels: 7  # Nombre de concepts différents
+
+training:
+  output_dir: "./camembert-finetuned-concepts"
+  num_train_epochs: 10  # Plus d'époques pour plus de nuances
+  per_device_train_batch_size: 16
+  per_device_eval_batch_size: 64
+  warmup_steps: 500
+  weight_decay: 0.01
+  logging_dir: "./logs-concepts"
+  logging_steps: 50
+  eval_strategy: "steps"
+  eval_steps: 300
+  save_strategy: "steps"
+  save_steps: 600
+  load_best_model_at_end: true
+  metric_for_best_model: "f1"  # F1 score pour classification multi-classe
+  seed: 42
+
+tokenizer:
+  max_length: 128
+  truncation: true
+  padding: "max_length"
+  return_tensors: "pt"
+
+data:
+  test_size: 0.2
+  random_state: 42
+  stratify: true
+
+metrics:
+  accuracy: true
+  f1: true
+  precision: true
+  recall: true

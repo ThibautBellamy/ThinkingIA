@@ -153,7 +153,7 @@ class CamembertFineTunerGeneric:
         training_config = self.config['training']
         
         return TrainingArguments(
-            output_dir=training_config.get('output_dir', './camembert-finetuned'),
+            output_dir=training_config.get('output_dir', './finetuned/camembert-finetuned'),
             num_train_epochs=training_config.get('num_train_epochs', 3),
             per_device_train_batch_size=training_config.get('per_device_train_batch_size', 16),
             per_device_eval_batch_size=training_config.get('per_device_eval_batch_size', 64),
