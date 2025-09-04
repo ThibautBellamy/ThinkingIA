@@ -1,0 +1,46 @@
+# config_questions_affirmations.yaml
+
+# Configuration du modèle
+model:
+  name: "camembert-base"
+  num_labels: 2
+
+# Configuration de l'entraînement
+training:
+  output_dir: "./camembert-finetuned-questions"
+  num_train_epochs: 3
+  per_device_train_batch_size: 16
+  per_device_eval_batch_size: 64
+  warmup_steps: 500
+  weight_decay: 0.01
+  logging_dir: "./logs"
+  logging_steps: 100
+  eval_strategy: "steps"  # ✅ CHANGÉ: était "evaluation_strategy"
+  eval_steps: 500
+  save_strategy: "steps"
+  save_steps: 1000
+  load_best_model_at_end: true
+  metric_for_best_model: "accuracy"
+  greater_is_better: true
+  report_to: null
+  seed: 42
+
+# Configuration du tokenizer
+tokenizer:
+  max_length: 128
+  truncation: true
+  padding: "max_length"
+  return_tensors: "pt"
+
+# Configuration des données
+data:
+  test_size: 0.2
+  random_state: 42
+  stratify: true
+
+# Configuration des métriques
+metrics:
+  accuracy: true
+  f1: true
+  precision: true
+  recall: true
